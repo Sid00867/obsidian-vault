@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TO DO.md",
+                "file": "Dyna — Richard Sutton (1990).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TO DO"
+              "title": "Dyna — Richard Sutton (1990)"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "21192a5399f6a0ff",
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TO DO.md",
+                "file": "Dyna — Richard Sutton (1990).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TO DO"
+              "title": "Backlinks for Dyna — Richard Sutton (1990)"
             }
           },
           {
@@ -128,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TO DO.md",
+                "file": "Dyna — Richard Sutton (1990).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TO DO"
+              "title": "Outgoing links from Dyna — Richard Sutton (1990)"
             }
           },
           {
@@ -171,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO DO.md",
+                "file": "Dyna — Richard Sutton (1990).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TO DO"
+              "title": "Outline of Dyna — Richard Sutton (1990)"
             }
           }
         ]
@@ -201,11 +202,11 @@
   },
   "active": "d2380557cabc6e16",
   "lastOpenFiles": [
+    "Reading list.md",
+    "Pasted image 20260602225304.png",
     "Dyna — Richard Sutton (1990).md",
     "TO DO.md",
-    "Reading list.md",
     "Pasted image 20260602225328.png",
-    "Pasted image 20260602225304.png",
     "Welcome.md"
   ]
 }

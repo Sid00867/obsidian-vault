@@ -18,3 +18,10 @@ What hypothetical states to choose -> this is a planning problem
 (action model here is the world model)
 
 ![[Pasted image 20260602225304.png]]![[Pasted image 20260602225328.png]]
+
+Why learn imaginatively?
+
+Faster rollouts and experiences, leading to faster convergence on optimal reactive policy.
+
+
+
