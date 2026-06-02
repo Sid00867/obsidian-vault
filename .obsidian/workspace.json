@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dyna — Richard Sutton (1990).md",
+                "file": "Reading list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dyna — Richard Sutton (1990)"
+              "title": "Reading list"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dyna — Richard Sutton (1990).md",
+                "file": "Reading list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dyna — Richard Sutton (1990)"
+              "title": "Backlinks for Reading list"
             }
           },
           {
@@ -129,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dyna — Richard Sutton (1990).md",
+                "file": "Reading list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Dyna — Richard Sutton (1990)"
+              "title": "Outgoing links from Reading list"
             }
           },
           {
@@ -172,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dyna — Richard Sutton (1990).md",
+                "file": "Reading list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dyna — Richard Sutton (1990)"
+              "title": "Outline of Reading list"
             }
           }
         ]
@@ -202,12 +202,13 @@
   },
   "active": "d2380557cabc6e16",
   "lastOpenFiles": [
+    "TO DO.md",
+    "Dyna — Richard Sutton (1990).md",
+    "Pasted image 20260602234220.png",
     "Pasted image 20260602233650.png",
     "Pasted image 20260602233228.png",
     "Reading list.md",
     "Pasted image 20260602225304.png",
-    "Dyna — Richard Sutton (1990).md",
-    "TO DO.md",
     "Pasted image 20260602225328.png",
     "Welcome.md"
   ]

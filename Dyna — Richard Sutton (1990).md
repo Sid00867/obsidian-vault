@@ -42,3 +42,5 @@ IDP is too inefficient for large state spaces. (solved with later architectures)
 Ambiguous and Hidden states (inherent stochasticity and uncertainty involved in state representation) -> maybe RSSM fixes it? idk
 ![[Pasted image 20260602233650.png]]
 
+Incorporation of useful priors:
+![[Pasted image 20260602234220.png]]
