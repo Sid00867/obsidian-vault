@@ -9,7 +9,11 @@ Goal:
 
 -> Learn the Reactive policy by RL with some experiences
 -> Learn the world model with the same experiences (make world model predictions aligned with reality)
--> choose hypothetical world state and action, use world model to imaginatively predict next state, further learn the policy by RL with this
+-> choose hypothetical (previous experiences) world state and action, use world model to imaginatively predict next state, further learn the policy by RL with this
+
+RL method suggested by the paper -> Q learning
+
+What hypothetical states to choose -> this is a planning problem
 
 (action model here is the world model)
 
