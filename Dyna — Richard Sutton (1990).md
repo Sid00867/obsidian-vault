@@ -28,7 +28,7 @@ Faster rollouts and experiences, leading to faster convergence on optimal reacti
 Planning method - IDP (Iterative Dynamic programming)
 
 
-Problems with Dyna. 
+==**Problems with Dyna.**== 
 
 IDP is too inefficient for large state spaces. (solved with later architectures)
 
@@ -37,3 +37,8 @@ IDP is too inefficient for large state spaces. (solved with later architectures)
 > Planning must be done at several levels, muscle twitches and a trip across the country require different wiring and mechanisms, and the results must be combined in some way.
 
 ![[Pasted image 20260602233228.png]]
+
+
+Ambiguous and Hidden states (inherent stochasticity and uncertainty involved in state representation) -> maybe RSSM fixes it? idk
+![[Pasted image 20260602233650.png]]
+
