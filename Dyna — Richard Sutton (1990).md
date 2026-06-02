@@ -27,3 +27,13 @@ Faster rollouts and experiences, leading to faster convergence on optimal reacti
 
 Planning method - IDP (Iterative Dynamic programming)
 
+
+Problems with Dyna. 
+
+IDP is too inefficient for large state spaces. (solved with later architectures)
+
+> [!NOTE]
+> Interesting Point -> Hierarchical Planning :
+> Planning must be done at several levels, muscle twitches and a trip across the country require different wiring and mechanisms, and the results must be combined in some way.
+
+![[Pasted image 20260602233228.png]]
