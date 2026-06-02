@@ -23,5 +23,7 @@ Why learn imaginatively?
 
 Faster rollouts and experiences, leading to faster convergence on optimal reactive policy.
 
+==========
 
+Planning method - IDP (Iterative Dynamic programming)
 
