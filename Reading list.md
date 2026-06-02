@@ -2,7 +2,7 @@
 
 ## Week 1–2: Foundations
 
-### 1. Dyna — Richard Sutton (1990)
+### 1. [[Dyna — Richard Sutton (1990)]]
 
 **Why:** The conceptual ancestor of modern world models.
 
