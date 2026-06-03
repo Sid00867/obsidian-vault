@@ -74,3 +74,6 @@ Once you have nodes filled in, rank uncertainties by impact, neglectedness, and 
     
 
 > **As you can see, the higher the level you go, the more impactful your research is going to be,** but the less feasible that research could be because the uncertainty is going to just balloon up.
+
+
+![[Pasted image 20260603143834.png]]- **Don’t propose solutions** until the problem has been discussed as thoroughly as possible.
