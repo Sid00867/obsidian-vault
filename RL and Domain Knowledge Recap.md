@@ -20,4 +20,10 @@ policy "gradient" just means how much to change the policy distribution (gradien
 here we use something called a value function:
 ![[Pasted image 20260603154838.png]]
 
+and:
+do policy gradient methos use value funs? if so how? why need it
+
+![[Pasted image 20260603155759.png]]
+
+
 
