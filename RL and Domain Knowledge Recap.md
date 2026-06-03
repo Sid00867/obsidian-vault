@@ -140,6 +140,7 @@ we use the policy gradient theorem:
 ![[Pasted image 20260603213931.png]]
 
 both on policy and off policy methods exist for policy gradient. the above is one policy
+![[Pasted image 20260603220619.png|209]]
 
 
 ![[Pasted image 20260603214149.png|380]]
@@ -163,7 +164,7 @@ Reinforcement Learning
 │   └── DQN - off policy
 │
 └── Policy-based
-    ├── Pure Policy Gradient
+    ├── Pure Policy Gradient 
     │   └── REINFORCE
     │
     └── Actor-Critic
@@ -174,8 +175,9 @@ Reinforcement Learning
         ├── TD3
         └── SAC
 
-so here, since REINFORCE isnt actor critic, it uses the value function as its "how good is a" term.
+so here, since REINFORCE isnt actor critic, it uses the total rewards from an episode as its "how good is a" term.
 
-
+(actor-critic is exclusive to policy based methods)
 ACTOR - policy function (acts)
-CRITIC - Evaluation function 
+CRITIC - Evaluation function (Value function/ GAE)
+
