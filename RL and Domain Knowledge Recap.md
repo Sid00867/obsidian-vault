@@ -142,3 +142,13 @@ we use the policy gradient theorem:
 both on policy and off policy methods exist for policy gradient. the above is one policy
 
 
+![[Pasted image 20260603214149.png|380]]
+
+how do we define the term "how good is action a"?
+we use something called GAE (Generalized advantage estimator):
+
+GAE - how good is an action relative to other actions?
+
+
+
+
