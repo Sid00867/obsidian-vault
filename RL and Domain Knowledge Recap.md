@@ -65,9 +65,11 @@ note that in (3) there is a cyclic dependency, Q depends on the policy, and the 
 ![[Pasted image 20260603163956.png|390]]
 How to evaluate value funcs?
 
-one method - Monte carlo -> just repeatedly sample experiences and assign values based on rewards numerically. this is quite inaccurate sometimes because it fails to do TD learning, or the credit assignment problem, whereby it assigns bad values to all the actions in an experience, even tho only some might have contribuited to it. and you have to wait for the episode to end to assign values in MC too.
+one method - Monte carlo -> just repeatedly sample experiences and assign values based on rewards numerically. this is quite inaccurate sometimes because it fails to do TD learning, or the credit assignment problem, whereby it assigns bad values to all the actions in an experience, even tho only some might have contributed to it. and you have to wait for the episode to end to assign values in MC too.
 
-TD learning solves this by considering by the relative difference, i.e we come up with an estimate for every state action pair (value) relative to estimate of another state action pair in the next timestep using one rewards as the difference, not caring about the subsequent rewards in the rp
+TD learning solves this by considering the relative difference, i.e we come up with an estimate for every state action pair (value) relative to estimate of another state action pair in the next timestep using one reward as the difference, not caring about the subsequent rewards in the episode. (expressed as an equation below). 
+
+we start from the last Q (terminal state value), we set the rewards to it and since there is no next state we can ignore the second q term. for the penultimate state
 
 Different ways to update Q (value) in TD Model-free learning:
 ![[Pasted image 20260603190329.png|697]]in other words, in any given state and action, MC is saying : what is my return?
