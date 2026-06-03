@@ -106,4 +106,5 @@ note that expected sarsa takes consideration of all the possible actions in give
 like the Q func, its possible for V too:
 ![[Pasted image 20260603193642.png|444]]
 
-ON policy
+ON policy vs OFF policy: 
+![[Pasted image 20260603195343.png]]so basically q learning chooses the optimal action value instead of what was actually chosen by the policy generating experiences. (like sarsa)
