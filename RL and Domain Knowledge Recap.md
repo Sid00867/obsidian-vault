@@ -147,7 +147,8 @@ both on policy and off policy methods exist for policy gradient. the above is on
 how do we define the term "how good is action a"?
 we use something called GAE (Generalized advantage estimator):
 
-GAE - how good is an action relative to other actions?
+GAE - how good is an action relative to other actions in the same state (known as the advantage)
+GAE reduces variance
 
 
 
