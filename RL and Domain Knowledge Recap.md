@@ -65,11 +65,11 @@ note that in (3) there is a cyclic dependency, Q depends on the policy, and the 
 ![[Pasted image 20260603163956.png|390]]
 How to evaluate value funcs?
 
-one method - Monte carlo -> just repeatedly sample experiences and assign values based on rewards numerically. this is quite inaccurate sometimes because it fails to do TD learning, or the credit assignment problem, whereby it assigns bad values to all the actions in an experience, even tho only some might have contributed to it. and you have to wait for the episode to end to assign values in MC too.
+One method is **Monte Carlo (MC)**. It repeatedly samples experiences and assigns values based on the actual returns observed. For a state or state-action pair, we compute the total discounted reward obtained after visiting it and use that as the target value. A drawback is that you have to wait until the episode ends before assigning values. MC also tends to have high variance because the return can vary significantly between episodes, making learning unstable or slow.
 
-TD learning solves this by considering the relative difference, i.e we come up with an estimate for every state action pair (value) relative to estimate of another state action pair in the next timestep using one reward as the difference, not caring about the subsequent rewards in the episode. (expressed as an equation below). 
+**TD learning** solves this by bootstrapping. Instead of waiting for the full return, we come up with an estimate for every state-action pair relative to the estimate of another state-action pair in the next timestep, using one reward plus the next state's estimated value as the target. We do not need to explicitly compute all subsequent rewards in the episode. (Expressed as an equation below.)
 
-we start from the last Q (terminal state value), we set the rewards to it and since there is no next state we can ignore the second q term. for the penultimate state
+For each transition, we observe the reward and next state, then update the current Q value toward the target formed by that reward and the next state's estimated Q value. We do this immediately at every timestep rather than waiting until the episode ends. Over many episodes, information about future rewards gradually propagates backwards through the state sequence as the Q estimates become more accurate. In this way, we can learn the Q function online while reducing the high variance associated with Monte Carlo methods.
 
 Different ways to update Q (value) in TD Model-free learning:
 ![[Pasted image 20260603190329.png|697]]in other words, in any given state and action, MC is saying : what is my return?
