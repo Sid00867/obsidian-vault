@@ -119,3 +119,8 @@ meaning that even tho we dont have world model, the samples we collect will aver
 
 "If a series of state action pair trajectory is optimal, if we break it down then that should be optimal too"
 ![[Pasted image 20260603201349.png]]![[Pasted image 20260603201850.png|552]]
+
+For Value Methods
+![[Pasted image 20260603202021.png|516]]![[Pasted image 20260603202054.png|456]]
+
+Continuous action use policy gradient methods.
