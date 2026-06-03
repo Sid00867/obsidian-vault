@@ -11,10 +11,14 @@
             "id": "01cb0acac5201ce5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "World Models — Ha & Schmidhuber (2018)"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for World Models — Ha & Schmidhuber (2018)"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from World Models — Ha & Schmidhuber (2018)"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of World Models — Ha & Schmidhuber (2018)"
             }
           }
         ],
@@ -180,6 +187,9 @@
   },
   "active": "01cb0acac5201ce5",
   "lastOpenFiles": [
+    "Papers & Articles/Attachments/Pasted image 20260603234849.png",
+    "Papers & Articles/Attachments/Pasted image 20260603234819.png",
+    "Papers & Articles/Attachments/Pasted image 20260603234743.png",
     "README.md",
     "Research Questions and Problems.md",
     "Tips on choosing research problems.md",
@@ -195,8 +205,6 @@
     "Attachments/Pasted image 20260603223316.png",
     "Attachments/Pasted image 20260603223135.png",
     "Attachments/Pasted image 20260603220957.png",
-    "Attachments/Pasted image 20260603220619.png",
-    "Attachments/Pasted image 20260603214149.png",
     "Untitled",
     "TO DO.md",
     "Reading list.md",
