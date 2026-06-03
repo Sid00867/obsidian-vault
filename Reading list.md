@@ -11,7 +11,7 @@
 
 ---
 
-### 2. World Models — Ha & Schmidhuber (2018)
+### 2. [[World Models — Ha & Schmidhuber (2018)]]
 
 **Why:** The canonical modern world-model paper.
 

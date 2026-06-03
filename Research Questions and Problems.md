@@ -7,4 +7,6 @@
 
 -> Domain Specific Representations vs General Representations for tasks; does the prior or inductive bias we embed in domain specific reps really useful, or is there some method by which, a generalized learner/rep can "learn" a better prior? are there tasks out there where domain reps fail and general reps succeeds? this question is basically asking what should we prioritize in superhuman learners; is it well crafted priors and inductive biases? or is that general representations can do that task better with scale and compute? or should there be a balance between the two?
 
+-> The Credit Assignment problem
+
 
