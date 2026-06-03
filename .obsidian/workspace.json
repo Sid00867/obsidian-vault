@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reading list.md",
+                "file": "RL and Domain Knowledge Recap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Reading list"
+              "title": "Outgoing links from RL and Domain Knowledge Recap"
             }
           },
           {
@@ -157,20 +157,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reading list.md",
+                "file": "RL and Domain Knowledge Recap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Reading list"
+              "title": "Outline of RL and Domain Knowledge Recap"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,6 +188,7 @@
   },
   "active": "9e26fdd217f3c484",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20260603201850.png",
     "Attachments/Pasted image 20260603201349.png",
     "Attachments/Pasted image 20260603201218.png",
     "Attachments/Pasted image 20260603200506.png",
@@ -196,7 +199,6 @@
     "Attachments/Pasted image 20260603190329.png",
     "Attachments/Pasted image 20260603185728.png",
     "Attachments/Pasted image 20260603163956.png",
-    "Attachments/Pasted image 20260603162338.png",
     "Research Questions and Problems.md",
     "RL and Domain Knowledge Recap.md",
     "Untitled",

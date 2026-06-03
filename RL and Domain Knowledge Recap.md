@@ -65,7 +65,7 @@ note that in (3) there is a cyclic dependency, Q depends on the policy, and the 
 ![[Pasted image 20260603163956.png|390]]
 How to evaluate value funcs?
 
-One method is **Monte Carlo (MC)**. It repeatedly samples experiences and assigns values based on the actual returns observed. For a state or state-action pair, we compute the total discounted reward obtained after visiting it and use that as the target value. A drawback is that you have to wait until the episode ends before assigning values. MC also tends to have high variance because the return can vary significantly between episodes, making learning unstable or slow.
+One method is **Monte Carlo (MC)**. It repeatedly samples experiences and assigns values based on the actual returns observed (the reward only and no bootstrapped value). For a state or state-action pair, we compute the total discounted reward obtained after visiting it and use that as the target value. A drawback is that you have to wait until the episode ends before assigning values. MC also tends to have high variance because the return can vary significantly between episodes, making learning unstable or slow.
 
 **TD learning** solves this by bootstrapping. Instead of waiting for the full return, we come up with an estimate for every state-action pair relative to the estimate of another state-action pair in the next timestep, using one reward plus the next state's estimated value as the target. We do not need to explicitly compute all subsequent rewards in the episode. (Expressed as an equation below.)
 
@@ -117,5 +117,5 @@ the probability function of this expected term will be analagous to the world mo
 meaning that even tho we dont have world model, the samples we collect will average out according to it.
 ![[Pasted image 20260603200506.png|621]]![[Pasted image 20260603201218.png|470]]
 
-"If a series of s"
-![[Pasted image 20260603201349.png]]
+"If a series of state action pair trajectory is optimal, if we break it down then that should be optimal too"
+![[Pasted image 20260603201349.png]]![[Pasted image 20260603201850.png|552]]
