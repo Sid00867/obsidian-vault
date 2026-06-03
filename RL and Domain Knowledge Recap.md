@@ -211,8 +211,8 @@ Experience → Learn Environment Model
 Model-Based RL
 │
 ├── Known Model
-│   ├── Value Iteration (remember andrew Ng cs229 lectures)
-│   ├── Policy Iteration (remember andrew Ng cs229 lectures)
+│   ├── Value Iteration (Andrew Ng CS229/CS221 style DP methods)
+│   ├── Policy Iteration (Andrew Ng CS229/CS221 style DP methods)
 │   └── MCTS with known dynamics
 │
 └── Learned Model
@@ -220,17 +220,45 @@ Model-Based RL
     ├── Learn Model + Plan
     │   ├── Dyna-Q
     │   ├── PETS
-    │   └── MPC-based methods
+    │   ├── MPC-based methods
+    │   └── PlaNet
     │
     ├── Learn Model + Learn Policy
     │   ├── World Models
-    │   ├── PlaNet
     │   ├── Dreamer
     │   └── DreamerV2/V3
     │
     └── Learn Model + Search
-        ├── AlphaZero
-        └── MuZero
+        ├── MuZero
+        └── (AlphaZero uses search, but does not learn the model)
 
 
+### Planning vs Search
 
+A useful intuition:
+
+**Planning**
+
+> Use a model to evaluate future consequences and choose actions.
+
+This is a broad category.
+
+Examples:
+
+- Value Iteration
+- MPC
+- PlaNet
+- Dreamer (to some extent)
+- MuZero
+
+---
+
+**Search**
+
+> Explicitly build and evaluate a tree of possible future action sequences at decision time.
+
+This is a specific type of planning.
+
+![[Pasted image 20260603223135.png]]
+
+MCTS is an example of decision time planning (alpha go, alpha zero ec)
