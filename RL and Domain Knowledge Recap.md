@@ -211,8 +211,8 @@ Experience → Learn Environment Model
 Model-Based RL
 │
 ├── Known Model
-│   ├── Value Iteration (andre Ng's )
-│   ├── Policy Iteration
+│   ├── Value Iteration (remember andrew Ng cs229 lectures)
+│   ├── Policy Iteration (remember andrew Ng cs229 lectures)
 │   └── MCTS with known dynamics
 │
 └── Learned Model
