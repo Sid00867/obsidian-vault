@@ -54,3 +54,6 @@ State Value func (V) -> expected return following policy pi in state s
 action value func (Q) -> expected return following policy pi in state s doing action a
 
 note that these funcs by default have a policy function attached to them
+
+the state value func is just an averaged action value func over the actions.
+![[Pasted image 20260603161732.png]]value funcs in bayesian RL & distributional RL -> how good a state is, but also how uncertain it is?
