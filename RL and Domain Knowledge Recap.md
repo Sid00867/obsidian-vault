@@ -261,4 +261,9 @@ This is a specific type of planning.
 
 ![[Pasted image 20260603223135.png]]
 
-MCTS is an example of decision time planning (alpha go, alpha zero ec)
+MCTS is an example of decision time planning (alpha go, alpha zero etc)
+![[Pasted image 20260603223316.png|617]]\
+
+![[Pasted image 20260603223421.png|492]]
+
+![[Pasted image 20260603223715.png]]
