@@ -181,3 +181,9 @@ so here, since REINFORCE isnt actor critic, it uses the total rewards from an ep
 ACTOR - policy function (acts)
 CRITIC - Evaluation function (Value function/ GAE)
 
+so policy gradient is basically massaging the probability distribution (policy) so good actions in particular states are favoured and we have this range of methods (pure policy/actor critic - gae,value) to estimate good action values through TD learning.
+
+However there are some completely different objective functions methods like this use:
+![[Pasted image 20260603220957.png]]
+
+(still follows the general structure of actor and critic)
