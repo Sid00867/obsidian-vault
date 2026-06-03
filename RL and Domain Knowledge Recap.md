@@ -124,3 +124,6 @@ For Value Methods
 ![[Pasted image 20260603202021.png|516]]![[Pasted image 20260603202054.png|456]]
 
 Continuous action use policy gradient methods.
+
+policy gradient methods are diff from value based methods, in value methods, the equations have a clear target or update expression to give to the NN to optimize for. but there is no such thing in policy gradient. no "target."
+
