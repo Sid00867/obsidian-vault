@@ -130,4 +130,15 @@ policy gradient methods are diff from value based methods, in value methods, the
 instead the objective is to maximize an objective function, it works like this : the objective function takes the whole policy, including the network parameters and evaluates how well its doing, compared to value methods where we look at a particular state
 ![[Pasted image 20260603213418.png|301]]
 instead of looking at what states are good, we check the policy as a whole if its good
-we use gradient ascent to maximize performance objective function
+we use gradient ascent to maximize performance objective function.
+
+there are many option to define our objective function J:
+![[Pasted image 20260603213716.png]]
+
+How to update J?
+we use the policy gradient theorem:
+![[Pasted image 20260603213931.png]]
+
+both on policy and off policy methods exist for policy gradient. the above is one policy
+
+
