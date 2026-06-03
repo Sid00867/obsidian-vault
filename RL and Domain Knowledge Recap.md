@@ -67,4 +67,6 @@ How to evaluate value funcs?
 
 one method - Monte carlo -> just repeatedly sample experiences and assign values based on rewards numerically. this is quite inaccurate sometimes because it fails to do TD learning, or the credit assignment problem, whereby it assigns bad values to all the actions in an experience, even tho only some might have contribuited to it. and you have to wait for the episode to end to assign values in MC too.
 
-Differet ways to update Q in TD learning:
+Different ways to update Q (value) in TD Model-free learning:
+![[Pasted image 20260603190329.png|697]]in other words, in any given state and action, MC is saying : what is my return?
+SARSA is saying : how much better or worse is my return, relative to the new state and the action that i ended up taking?
