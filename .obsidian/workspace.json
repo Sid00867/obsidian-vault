@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
+                "file": "RL and Domain Knowledge Recap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "World Models — Ha & Schmidhuber (2018)"
+              "title": "RL and Domain Knowledge Recap"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
+                "file": "RL and Domain Knowledge Recap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for World Models — Ha & Schmidhuber (2018)"
+              "title": "Backlinks for RL and Domain Knowledge Recap"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
+                "file": "RL and Domain Knowledge Recap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from World Models — Ha & Schmidhuber (2018)"
+              "title": "Outgoing links from RL and Domain Knowledge Recap"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
+                "file": "RL and Domain Knowledge Recap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of World Models — Ha & Schmidhuber (2018)"
+              "title": "Outline of RL and Domain Knowledge Recap"
             }
           }
         ],
@@ -187,6 +187,8 @@
   },
   "active": "9e26fdd217f3c484",
   "lastOpenFiles": [
+    "Tips on choosing research problems.md",
+    "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
     "Papers & Articles/Attachments/Pasted image 20260603230048.png",
     "Papers & Articles/Attachments/Pasted image 20260603225923.png",
     "Papers & Articles/Attachments/Pasted image 20260603225847.png",
@@ -201,11 +203,8 @@
     "Attachments/Pasted image 20260603220957.png",
     "Attachments/Pasted image 20260603220619.png",
     "Attachments/Pasted image 20260603214149.png",
-    "Attachments/Pasted image 20260603213931.png",
     "Untitled",
-    "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
     "TO DO.md",
-    "Tips on choosing research problems.md",
     "Reading list.md",
     "Papers & Articles",
     "Attachments",
