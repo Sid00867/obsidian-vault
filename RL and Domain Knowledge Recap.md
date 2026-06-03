@@ -106,8 +106,4 @@ note that expected sarsa takes consideration of all the possible actions in give
 like the Q func, its possible for V too:
 ![[Pasted image 20260603193642.png|444]]
 
-
-
-For sarsa and expected sarsa, the q update depends on seperate the policy pi. (policy takes decision based off of Q as well)
-
-But in Q learning, we try
+ON policy
