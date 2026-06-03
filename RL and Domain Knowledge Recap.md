@@ -17,11 +17,36 @@ They have a probability distribution over the actions space given the state spac
 
 policy "gradient" just means how much to change the policy distribution (gradient) to achieve better reward maximizing policies
 
-here we use something called a value function:
+here we use something called a value function, a baseline:
 ![[Pasted image 20260603154838.png]]
 
-and:
-do policy gradient methos use value funs? if so how? why need it
+Policy gradient methods **can** use a value function, but they are not required to
+
+1. Pure Policy Gradient (e.g., REINFORCE)
+
+Pure policy gradient algorithms **do not use a value function**.
+
+- **How it works:** They directly parameterize the policy (usually with a neural network) and learn by observing the actual total rewards (returns) from complete episodes. 
+- **Drawback:** high variance
+
+2. Policy Gradient with a Baseline (e.g., Vanilla Policy Gradient)
+
+These methods incorporate a value function to make the learning process more stable.
+
+- **How it works:** Instead of just using the raw reward, they subtract a state-value baseline (calculated by a learned value network) from the actual reward. This is called the **advantage function**.
+- **Why it's used:** It reduces the variance of the gradient updates by answering "how much better was this action than average?"
+
+3. Actor-Critic Methods (e.g., A3C, PPO, SAC)
+
+These methods explicitly use **both** a policy and a value function.
+
+- **The "Actor":** The policy network that learns to select actions.
+- **The "Critic":** The value function network that evaluates the actions taken by the actor.
+- **Why it's used:** The critic evaluates the expected returns, allowing the actor to update its policy continuously at every step, making it much more sample-efficient and stable. 
+
+
+Note that we havent entered world models yet, these are all model free methods
+
 
 ![[Pasted image 20260603155759.png]]
 
