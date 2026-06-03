@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reading list.md",
+                "file": "Tips on choosing research problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reading list"
+              "title": "Tips on choosing research problems"
             }
           }
         ],
@@ -202,12 +202,13 @@
   },
   "active": "d2380557cabc6e16",
   "lastOpenFiles": [
+    "Reading list.md",
+    "Tips on choosing research problems.md",
     "TO DO.md",
     "Dyna — Richard Sutton (1990).md",
     "Pasted image 20260602234220.png",
     "Pasted image 20260602233650.png",
     "Pasted image 20260602233228.png",
-    "Reading list.md",
     "Pasted image 20260602225304.png",
     "Pasted image 20260602225328.png",
     "Welcome.md"
