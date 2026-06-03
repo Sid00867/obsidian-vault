@@ -96,8 +96,12 @@ But if someone asked for the single concept that enables TD learning, the answer
 
 
 Different ways to update Q (value) in TD Model-free learning:
-![[Pasted image 20260603190329.png|697]]in other words, in any given state and action, MC is saying : what is my return?
+![[Pasted image 20260603193613.png]]
+in other words, in any given state and action, MC is saying : what is my return?
 SARSA is saying : how much better or worse is my return, relative to the new state and the action that i ended up taking?
 
 
-note that expected sarsa takes consideration of all the possible actions in given state, as we know intuitively that 
+note that expected sarsa takes consideration of all the possible actions in given state, as we can see that in plain sarsa the "next state term" in TD learning is just the one state from the episode we sampled, but many more future states are possible.
+
+like the Q func, its possible for V too:
+![[Pasted image 20260603193642.png|444]]
