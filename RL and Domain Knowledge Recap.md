@@ -25,5 +25,7 @@ do policy gradient methos use value funs? if so how? why need it
 
 ![[Pasted image 20260603155759.png]]
 
+State Value func (V) -> expected return following policy pi in state s
+action value func (Q) -> expected return following policy pi in state s doing action a
 
-
+note that these funcs by default have a policy function attached to them
