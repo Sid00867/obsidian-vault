@@ -108,4 +108,6 @@ like the Q func, its possible for V too:
 
 
 
-For sarsa and expected sarsa, the q v
+For sarsa and expected sarsa, the q update depends on seperate the policy pi. (policy takes decision based off of Q as well)
+
+But in Q learning, we try
