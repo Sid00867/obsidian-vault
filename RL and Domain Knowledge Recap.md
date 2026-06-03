@@ -71,6 +71,31 @@ One method is **Monte Carlo (MC)**. It repeatedly samples experiences and assign
 
 For each transition, we observe the reward and next state, then update the current Q value toward the target formed by that reward and the next state's estimated Q value. We do this immediately at every timestep rather than waiting until the episode ends. Over many episodes, information about future rewards gradually propagates backwards through the state sequence as the Q estimates become more accurate. In this way, we can learn the Q function online while reducing the high variance associated with Monte Carlo methods.
 
+
+
+The **value function is not what makes TD learning possible**. Rather, TD learning is possible because of **bootstrapping**.
+
+The value function is simply what we're trying to estimate. Monte Carlo methods also estimate value functions.
+
+The key difference is:
+
+- **Monte Carlo:** update a value estimate using the actual return observed later.
+- **TD:** update a value estimate using another value estimate.
+
+In other words, TD learning relies on the fact that:
+
+![[Pasted image 20260603192720.png]]
+
+You could say:
+
+> TD learning is possible because we maintain value estimates and bootstrap from them.
+
+But if someone asked for the single concept that enables TD learning, the answer would be **bootstrapping**, not the value function itself. The value function is the object being learned; bootstrapping is the mechanism that learns it.
+
+
+
+
 Different ways to update Q (value) in TD Model-free learning:
 ![[Pasted image 20260603190329.png|697]]in other words, in any given state and action, MC is saying : what is my return?
 SARSA is saying : how much better or worse is my return, relative to the new state and the action that i ended up taking?
+
