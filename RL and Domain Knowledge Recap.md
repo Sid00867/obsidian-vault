@@ -150,6 +150,9 @@ we use something called GAE (Generalized advantage estimator):
 GAE - how good is an action relative to other actions in the same state (known as the advantage)
 GAE reduces variance
 
+- **SARSA:** uses TD learning to estimate **action-values** Q(s,a)Q(s,a)Q(s,a).
+- **GAE:** uses TD learning to estimate **advantages**, which are then used to improve the policy.
 
+note that we can use
 
 
