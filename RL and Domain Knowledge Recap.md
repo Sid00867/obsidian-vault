@@ -18,7 +18,7 @@ They have a probability distribution over the actions space given the state spac
 policy "gradient" just means how much to change the policy distribution (gradient) to achieve better reward maximizing policies
 
 here we use something called a value function, a baseline:
-![[Pasted image 20260603154838.png]]
+![[Pasted image 20260603154838.png|404]]
 
 Policy gradient methods **can** use a value function, but they are not required to
 
@@ -55,5 +55,10 @@ action value func (Q) -> expected return following policy pi in state s doing ac
 
 note that these funcs by default have a policy function attached to them
 
-the state value func is just an averaged action value func over the actions.
-![[Pasted image 20260603161732.png]]value funcs in bayesian RL & distributional RL -> how good a state is, but also how uncertain it is?
+### the state value function is just an averaged action value function over the actions.
+
+![[Pasted image 20260603161732.png|397]]value funcs in bayesian RL & distributional RL -> how good a state is, but also how uncertain it is?
+
+![[Pasted image 20260603162338.png|429]]
+
+note that in (3) there is a cyclic dependency, Q depends on the policy, and the policy depends on Q to select action with highest value. as long as we improve 1, the policy improves
