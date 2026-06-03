@@ -16,5 +16,13 @@ Also, when you read, read actively. Make notes. Summarise key ideas. Write what 
 Paras chopra notes - [Catching up on Model Based Reinforcement Learning - Google Docs](https://docs.google.com/document/d/1JYNnyfLVHMp7JACr4G6qAtxIiCSmoKYxuoUXxTwjOIo/edit?tab=t.0)
 
 
+![[Pasted image 20260603132939.png]]
 
+#### Confusing building things with doing science
+
+In AI research, many people come from an engineering background. As an engineer, your primary job is to build stuff that works in the real world. And that’s hugely valuable as our economy runs on useful things we have in our life.
+
+But, a scientist’s mindset is different.
+
+**A scientist’s job is to make precise claims about a phenomena and then provide evidence for such claims**
 
