@@ -26,3 +26,8 @@ But, a scientist’s mindset is different.
 
 **A scientist’s job is to make precise claims about a phenomena and then provide evidence for such claims**
 
+a lot of uncertainties are mostly personal uncertainties - where someone somewhere out there knows the answer, but you don't. In that case, **finding out whether the uncertainty you have is an actual uncertainty in a community or it's a personal uncertainty is a good first step**.
+
+Doing a literature review and background survey is essential
+
+![[Pasted image 20260603133839.png]]
