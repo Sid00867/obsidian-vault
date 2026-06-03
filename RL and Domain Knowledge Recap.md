@@ -63,3 +63,6 @@ note that these funcs by default have a policy function attached to them
 
 note that in (3) there is a cyclic dependency, Q depends on the policy, and the policy depends on Q to select action with highest value. as long as we improve 1, the policy improves
 ![[Pasted image 20260603163956.png|390]]
+How to evaluate value funcs?
+
+one method - Monte carlo -> just repeatedly sample experiences and assign values based on rewards numerically. this is quite inaccurate sometimes because it fails to do TD learning, or the credit assignment problem, whereby it assigns bad values to all the actions in an experience, even tho only some might have contribuited to it. and you have to wait for the episode to end to assign values in MC too.
