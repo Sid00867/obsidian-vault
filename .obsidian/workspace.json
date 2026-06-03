@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7628ed0dcd51061e",
+        "id": "d09ab8ac8258b4af",
         "type": "tabs",
         "children": [
           {
-            "id": "2760db1ba51b51ce",
+            "id": "9e26fdd217f3c484",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -184,12 +184,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2760db1ba51b51ce",
+  "active": "9e26fdd217f3c484",
   "lastOpenFiles": [
     "TO DO.md",
-    "Papers & Articles/Dyna — Richard Sutton (1990).md",
     "Tips on choosing research problems.md",
+    "Research Questions.md",
     "Reading list.md",
+    "Papers & Articles/Dyna — Richard Sutton (1990).md",
     "Papers & Articles",
     "Attachments/Pasted image 20260602225304.png",
     "Attachments/Pasted image 20260603144334.png",
