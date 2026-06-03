@@ -30,4 +30,8 @@ a lot of uncertainties are mostly personal uncertainties - where someone somewhe
 
 Doing a literature review and background survey is essential
 
-![[Pasted image 20260603133839.png]]
+
+![[Pasted image 20260603133839.png|697]]
+![[Pasted image 20260603134133.png]]
+
+![[Pasted image 20260603134110.png]]
