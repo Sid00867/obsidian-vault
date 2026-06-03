@@ -99,3 +99,5 @@ Different ways to update Q (value) in TD Model-free learning:
 ![[Pasted image 20260603190329.png|697]]in other words, in any given state and action, MC is saying : what is my return?
 SARSA is saying : how much better or worse is my return, relative to the new state and the action that i ended up taking?
 
+
+note that expected sarsa takes consideration of all the possible actions in given state, as we know intuitively that 
