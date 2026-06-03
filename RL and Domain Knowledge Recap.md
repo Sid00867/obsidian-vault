@@ -156,7 +156,7 @@ GAE reduces variance
 
 note that we can use like total rewards for "how good is a" term, but we dont because of the higher variance, so we use TD methods. since we use TD methods, this system is called actor critic method.
 
-Reinforcement Learning
+Model free Reinforcement Learning
 │
 ├── Value-based
 │   ├── SARSA - on policy
@@ -187,3 +187,50 @@ However there are some completely different objective functions methods like thi
 ![[Pasted image 20260603220957.png]]
 
 (still follows the general structure of actor and critic)
+
+
+- Value-based vs Policy-based vs Actor-Critic → **how you learn/control**
+- On-policy vs Off-policy → **what data you learn from**
+- Model-free vs Model-based → **whether you learn/use an environment model**
+
+=======================================
+
+Model-Free
+-----------
+Experience → Learn Policy/Value
+
+Model-Based
+-----------
+Experience → Learn Environment Model
+                       ↓
+              Simulate / Plan
+                       ↓
+               Learn Policy
+
+
+Model-Based RL
+│
+├── Known Model
+│   ├── Value Iteration (andre Ng's )
+│   ├── Policy Iteration
+│   └── MCTS with known dynamics
+│
+└── Learned Model
+    │
+    ├── Learn Model + Plan
+    │   ├── Dyna-Q
+    │   ├── PETS
+    │   └── MPC-based methods
+    │
+    ├── Learn Model + Learn Policy
+    │   ├── World Models
+    │   ├── PlaNet
+    │   ├── Dreamer
+    │   └── DreamerV2/V3
+    │
+    └── Learn Model + Search
+        ├── AlphaZero
+        └── MuZero
+
+
+
