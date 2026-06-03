@@ -108,3 +108,9 @@ like the Q func, its possible for V too:
 
 ON policy vs OFF policy: 
 ![[Pasted image 20260603195343.png]]so basically q learning chooses the optimal action value instead of what was actually chosen by the policy generating experiences. (like sarsa)
+
+Nice piece of intuition -> even tho we dont have a world model, where if we take enough samples and do Q learning, Q will average out, and as we can see here, Q* will be approximately
+estimate the expected value of the term we do our updates with.
+
+the probability function of this expected term will be analagous to the world model, even tho we never really explicity built them.
+![[Pasted image 20260603200506.png|621]]
