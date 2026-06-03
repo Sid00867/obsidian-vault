@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d09ab8ac8258b4af",
+        "id": "947ac12b9da7ded6",
         "type": "tabs",
         "children": [
           {
-            "id": "9e26fdd217f3c484",
+            "id": "01cb0acac5201ce5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research Questions and Problems.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Research Questions and Problems"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research Questions and Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Research Questions and Problems"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research Questions and Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Research Questions and Problems"
+              "title": "Outgoing links"
             }
           },
           {
@@ -156,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research Questions and Problems.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Research Questions and Problems"
+              "title": "Outline"
             }
           }
         ],
@@ -185,8 +178,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e26fdd217f3c484",
+  "active": "01cb0acac5201ce5",
   "lastOpenFiles": [
+    "README.md",
+    "Research Questions and Problems.md",
     "Tips on choosing research problems.md",
     "RL and Domain Knowledge Recap.md",
     "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
@@ -195,7 +190,6 @@
     "Papers & Articles/Attachments/Pasted image 20260603225847.png",
     "Papers & Articles/Attachments",
     "Papers & Articles/Dyna — Richard Sutton (1990).md",
-    "Research Questions and Problems.md",
     "Attachments/Pasted image 20260603223715.png",
     "Attachments/Pasted image 20260603223421.png",
     "Attachments/Pasted image 20260603223316.png",
