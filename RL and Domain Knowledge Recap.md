@@ -62,3 +62,4 @@ note that these funcs by default have a policy function attached to them
 ![[Pasted image 20260603162338.png|429]]
 
 note that in (3) there is a cyclic dependency, Q depends on the policy, and the policy depends on Q to select action with highest value. as long as we improve 1, the policy improves
+![[Pasted image 20260603163956.png|390]]
