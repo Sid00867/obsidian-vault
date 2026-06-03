@@ -34,4 +34,43 @@ Doing a literature review and background survey is essential
 ![[Pasted image 20260603133839.png|697]]
 ![[Pasted image 20260603134133.png]]
 
-![[Pasted image 20260603134110.png]]
+![[Pasted image 20260603134110.png]]![[Pasted image 20260603143205.png]]This tree is a living process. **Before you jump to selecting a research question from this tree, it might be important for you to read the literature widely and refine your understanding**.
+
+Once you have a decomposition of your question / problem of interest that you’re satisfied with, you need to start filling the nodes.
+
+What to fill in each node:
+
+> **Write foundational assumptions and key results in each node, and what uncertainties still unresolved.**
+
+Once you have nodes filled in, rank uncertainties by impact, neglectedness, and tractability to shortlist questions/uncertainties you want to focus on during the next 6-9 months.
+
+### Examples of the four levels of research uncertainties
+
+#### Level 1 - Known uncertainties
+
+- How to achieve sample-efficient RL?
+    
+- How to make LLMs more interpretable?
+    
+- How to prevent catastrophic forgetting in continual learning?
+    
+
+#### Level 2 - Foundation assumptions
+
+- Is the scaling hypothesis correct? Under what circumstances does it fail? (This questions the basic assumption that "bigger models = better models")
+    
+- Can we formulate a different objective function for language models other than auto-regressor next to completion? (This questions the dominant current pardigm of training models)
+    
+- Should we optimize for reward maximization at all? (This questions the basic assumption of RL.)
+    
+
+#### Level 3 - Conceptual blind spots
+
+- Relationship between consciousness and intelligence. (Current ML theory is completely mechanistic)
+    
+- Non-computational forms of intelligence. (We lack vocabulary for it)
+    
+- Collective intelligence. What does the word 'collective' here even mean?
+    
+
+> **As you can see, the higher the level you go, the more impactful your research is going to be,** but the less feasible that research could be because the uncertainty is going to just balloon up.
