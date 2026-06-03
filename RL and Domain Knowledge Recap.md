@@ -13,6 +13,6 @@ Model free is a mapping over states and actions, no model in between
 Policy Gradient Methods:
 
 Policy gradient methods are fundamentally model free
-They have a probability distribution over the state space and during training we concentrate our probability mass on favourable states. here the probability dist is the policy.
+They have a probability distribution over the actions space given the state space (basically the policy) and during training we concentrate our probability mass on favourable actions on a state. 
 
-policy "gradient" just means 
+policy "gradient" just means how much to change the policy distribution (gradient) to achieve better reward maximizing policies
