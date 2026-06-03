@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RL and Domain Knowledge Recap.md",
+                "file": "Research Questions and Problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RL and Domain Knowledge Recap"
+              "title": "Research Questions and Problems"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "21192a5399f6a0ff",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RL and Domain Knowledge Recap.md",
+                "file": "Research Questions and Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for RL and Domain Knowledge Recap"
+              "title": "Backlinks for Research Questions and Problems"
             }
           },
           {
@@ -114,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RL and Domain Knowledge Recap.md",
+                "file": "Research Questions and Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from RL and Domain Knowledge Recap"
+              "title": "Outgoing links from Research Questions and Problems"
             }
           },
           {
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RL and Domain Knowledge Recap.md",
+                "file": "Research Questions and Problems.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of RL and Domain Knowledge Recap"
+              "title": "Outline of Research Questions and Problems"
             }
           }
         ],
@@ -188,6 +187,7 @@
   },
   "active": "9e26fdd217f3c484",
   "lastOpenFiles": [
+    "RL and Domain Knowledge Recap.md",
     "Attachments/Pasted image 20260603223715.png",
     "Attachments/Pasted image 20260603223421.png",
     "Attachments/Pasted image 20260603223316.png",
@@ -198,9 +198,7 @@
     "Attachments/Pasted image 20260603213931.png",
     "Attachments/Pasted image 20260603213716.png",
     "Attachments/Pasted image 20260603213418.png",
-    "Attachments/Pasted image 20260603202054.png",
     "Research Questions and Problems.md",
-    "RL and Domain Knowledge Recap.md",
     "Untitled",
     "World Models — Ha & Schmidhuber (2018).md",
     "TO DO.md",
