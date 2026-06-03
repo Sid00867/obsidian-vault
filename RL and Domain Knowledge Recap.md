@@ -127,3 +127,7 @@ Continuous action use policy gradient methods.
 
 policy gradient methods are diff from value based methods, in value methods, the equations have a clear target or update expression to give to the NN to optimize for. but there is no such thing in policy gradient. no "target."
 
+instead the objective is to maximize an objective function, it works like this : the objective function takes the whole policy, including the network parameters and evaluates how well its doing, compared to value methods where we look at a particular state
+![[Pasted image 20260603213418.png|301]]
+instead of looking at what states are good, we check the policy as a whole if its good
+we use gradient ascent to maximize performance objective function
