@@ -113,4 +113,9 @@ Nice piece of intuition -> even tho we dont have a world model, where if we take
 estimate the expected value of the term we do our updates with.
 
 the probability function of this expected term will be analagous to the world model, even tho we never really explicity built them.
-![[Pasted image 20260603200506.png|621]]
+
+meaning that even tho we dont have world model, the samples we collect will average out according to it.
+![[Pasted image 20260603200506.png|621]]![[Pasted image 20260603201218.png|470]]
+
+"If a series of s"
+![[Pasted image 20260603201349.png]]
