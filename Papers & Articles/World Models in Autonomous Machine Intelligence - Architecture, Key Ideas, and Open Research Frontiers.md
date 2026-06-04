@@ -39,6 +39,12 @@ graph TD
 ### JEPA (Joint Embedding Predictive Architecture)
 Unlike generative models (e.g., Denoising Autoencoders or video predictors that predict raw pixels), a **JEPA** predicts *in representation space*. 
 
+  • DreamerV1 (Generative): Learns representations by forcing the state sₜ to contain enough information to reconstruct the entire pixel input xₜ. If
+  there are leaves rustling in the wind, Dreamer's encoder/decoder must waste capacity representing them because they affect pixel reconstruction.
+  
+  • JEPA (Non-Generative): Never reconstructs pixels. It has no decoder. Instead, it predicts the representation of the next frame  (sy)  directly from the representation of the current frame (sₓ) and relies on regularization techniques (like VICReg) to prevent collapse.
+  
+
   ### Generative Predictor
 ```mermaid
     graph LR
