@@ -39,13 +39,31 @@ graph TD
 ### JEPA (Joint Embedding Predictive Architecture)
 Unlike generative models (e.g., Denoising Autoencoders or video predictors that predict raw pixels), a **JEPA** predicts *in representation space*. 
 
+  ### Generative Predictor
+```mermaid
+    graph LR
+        X["x (Input)"] --> Enc["Encoder"]
+        Enc --> Pred["Predictor"]
+        Pred --> Dec["Decoder"]
+        Dec --> YH["y_hat (Pixels)"]
 ```
-Generative Predictor:  x --------> Encoder -------> Predictor -------> Decoder -------> y_hat (pixels)
-JEPA Predictor:        x --------> Encoder_x -----> s_x ----\
-                                                             -----> Predictor -------> s_y_hat
-                       y --------> Encoder_y -----> s_y ----/                              |
-                                                                                Compare (L2/Energy)
-```
+
+
+  ### JEPA Predictor (Joint Embedding Predictive Architecture)
+  ```mermaid
+  graph LR
+        X["x (Input)"] --> EncX["Encoder_x"]
+        EncX --> SX["s_x (Representation of x)"]
+        SX --> Pred["Predictor"]
+        Pred --> SYH["s_y_hat (Predicted Representation of y)"]
+
+        Y["y (Target)"] --> EncY["Encoder_y"]
+        EncY --> SY["s_y (Actual Representation of y)"]
+
+        SYH --> Comp{"Compare (L2/Energy)"}
+        SY --> Comp
+  ```
+
 
 By predicting the abstract representation $s_y$ rather than raw pixels $y$, the system ignores unpredictable high-frequency details (e.g., leaves rustling in the wind) and focuses purely on predictable structure.
 
