@@ -46,3 +46,9 @@ Introducing Artificial uncertainty TAU in dream envs makes better and robust pol
 To make it more difficult for our C model to exploit defi ciencies of the M model, we chose to use the MDN-RNN as the dynamics model, which models the distribution of possible outcomes in the actual environment, rather than merely predicting a deterministic future. Even if the actual environment is deterministic, the MDN-RNN would in ef fect approximate it as a stochastic environment. This has the advantage of allowing us to train our C model inside a more stochastic version of any environment– we can simply adjust the temperature parameter τ to control the amount of randomness in the M model, hence controlling the tradeoff between realism and exploitability.
 
 For instance, if we set the temperature parameter to a very low value of τ = 0.1, effectively training our C model with a M model that is almost identical to a deterministic LSTM, the monsters inside this dream environment fail to shoot fireballs, no matter what the agent does, due to mode collapse
+![[Pasted image 20260604135004.png|530]]
+
+
+> [!NOTE]
+> An exciting research direction is to look at ways to incorporate artificial curiosity and intrinsic motivation (Schmidhu ber, 2010; 2006; 1991b; Pathak et al., 2017; Oudeyer et al., 2007) and information seeking (Schmidhuber et al., 1994; Gottlieb et al., 2013) abilities in an agent to encourage novel exploration (Lehman & Stanley, 2011). In particular, we can augment the reward function based on improvement in compression quality (Schmidhuber, 2010; 2006; 1991b; 2015a).
+
