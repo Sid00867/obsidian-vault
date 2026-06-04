@@ -35,7 +35,8 @@
               "title": "A Path Towards Autonomous Machine Intelligence — Yann LeCun"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reading list.md",
+                "file": "Papers & Articles/A Path Towards Autonomous Machine Intelligence — Yann LeCun.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Reading list"
+              "title": "Backlinks for A Path Towards Autonomous Machine Intelligence — Yann LeCun"
             }
           },
           {
@@ -127,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reading list.md",
+                "file": "Papers & Articles/A Path Towards Autonomous Machine Intelligence — Yann LeCun.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Reading list"
+              "title": "Outgoing links from A Path Towards Autonomous Machine Intelligence — Yann LeCun"
             }
           },
           {
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reading list.md",
+                "file": "Papers & Articles/A Path Towards Autonomous Machine Intelligence — Yann LeCun.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Reading list"
+              "title": "Outline of A Path Towards Autonomous Machine Intelligence — Yann LeCun"
             }
           }
         ],
@@ -199,14 +200,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "01cb0acac5201ce5",
+  "active": "054fd4932a6a783e",
   "lastOpenFiles": [
+    "Papers & Articles/Attachments/Pasted image 20260604183341.png",
+    "Papers & Articles/Attachments/Pasted image 20260604183331.png",
+    "Reading list.md",
     "Papers & Articles/A Path Towards Autonomous Machine Intelligence — Yann LeCun.md",
     "Tips on choosing research problems.md",
     "RL and Domain Knowledge Recap.md",
     "Research Questions and Problems.md",
     "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
-    "Reading list.md",
     "README.md",
     "Papers & Articles/Dyna — Richard Sutton (1990).md",
     "Papers & Articles/Attachments/Pasted image 20260604140824.png",
@@ -218,7 +221,6 @@
     "Papers & Articles/Attachments/Pasted image 20260603234849.png",
     "Papers & Articles/Attachments/Pasted image 20260603234819.png",
     "Papers & Articles/Attachments/Pasted image 20260603234743.png",
-    "Papers & Articles/Attachments/Pasted image 20260603230048.png",
     "Papers & Articles/Attachments",
     "Untitled",
     "TO DO.md",
