@@ -39,3 +39,7 @@ Introducing Artificial uncertainty TAU in dream envs makes better and robust pol
 - The **controller (agent)** can exploit these unrealistic trajectories in the world model.
     
 - However, such exploits may not exist in the **real environment**, meaning the agent might learn strategies that don’t transfer well.
+
+
+"it’ll find a policy that looks good under our dynamics model, but will fail in the actual envi ronment, usually because it visits states where the model is wrong because they are away from the training distribution"
+
