@@ -1,4 +1,3 @@
-# World Models in Autonomous Machine Intelligence: Architecture, Key Ideas, and Open Research Frontiers
 
 This document summarizes the core concepts of Yann LeCun's position paper **"A Path Towards Autonomous Machine Intelligence"** (Version 0.9.2, 2022) and maps out the critical uncertainties, limitations, and open problems that must be solved to advance the field of world models.
 
