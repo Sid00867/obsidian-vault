@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research Questions and Problems.md",
+                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Research Questions and Problems"
+              "title": "World Models — Ha & Schmidhuber (2018)"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research Questions and Problems.md",
+                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Research Questions and Problems"
+              "title": "Backlinks for World Models — Ha & Schmidhuber (2018)"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research Questions and Problems.md",
+                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Research Questions and Problems"
+              "title": "Outgoing links from World Models — Ha & Schmidhuber (2018)"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research Questions and Problems.md",
+                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Research Questions and Problems"
+              "title": "Outline of World Models — Ha & Schmidhuber (2018)"
             }
           }
         ],
@@ -187,8 +187,8 @@
   },
   "active": "01cb0acac5201ce5",
   "lastOpenFiles": [
-    "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
     "Research Questions and Problems.md",
+    "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
     "Papers & Articles/Attachments/Pasted image 20260604135004.png",
     "Papers & Articles/Attachments/Pasted image 20260604132021.png",
     "Papers & Articles/Attachments/Pasted image 20260604131837.png",
