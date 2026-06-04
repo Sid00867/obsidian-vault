@@ -43,3 +43,5 @@ Introducing Artificial uncertainty TAU in dream envs makes better and robust pol
 
 "it’ll find a policy that looks good under our dynamics model, but will fail in the actual envi ronment, usually because it visits states where the model is wrong because they are away from the training distribution"
 
+To make it more difficult for our C model to exploit defi ciencies of the M model, we chose to use the MDN-RNN as the dynamics model, which models the distribution of possible outcomes in the actual environment, rather than merely predicting a deterministic future. Even if the actual environment is deterministic, the MDN-RNN would in ef fect approximate it as a stochastic environment. This has the advantage of allowing us to train our C model inside a more stochastic version of any environment– we can simply adjust the temperature parameter τ to control the amount of randomness in the M model, hence controlling the tradeoff between realism and exploitability.
+
