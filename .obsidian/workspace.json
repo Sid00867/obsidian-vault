@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
+                "file": "Reading list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "World Models — Ha & Schmidhuber (2018)"
+              "title": "Reading list"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
+                "file": "Reading list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for World Models — Ha & Schmidhuber (2018)"
+              "title": "Backlinks for Reading list"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
+                "file": "Reading list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from World Models — Ha & Schmidhuber (2018)"
+              "title": "Outgoing links from Reading list"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
+                "file": "Reading list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of World Models — Ha & Schmidhuber (2018)"
+              "title": "Outline of Reading list"
             }
           }
         ],
@@ -187,9 +187,11 @@
   },
   "active": "01cb0acac5201ce5",
   "lastOpenFiles": [
+    "README.md",
+    "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
+    "Papers & Articles/Dyna — Richard Sutton (1990).md",
     "Papers & Articles/Attachments/Pasted image 20260604140824.png",
     "Research Questions and Problems.md",
-    "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
     "Papers & Articles/Attachments/Pasted image 20260604135004.png",
     "Papers & Articles/Attachments/Pasted image 20260604132021.png",
     "Papers & Articles/Attachments/Pasted image 20260604131837.png",
@@ -199,13 +201,10 @@
     "Papers & Articles/Attachments/Pasted image 20260603234849.png",
     "Papers & Articles/Attachments/Pasted image 20260603234819.png",
     "Papers & Articles/Attachments/Pasted image 20260603234743.png",
-    "README.md",
     "Tips on choosing research problems.md",
     "RL and Domain Knowledge Recap.md",
     "Papers & Articles/Attachments/Pasted image 20260603230048.png",
-    "Papers & Articles/Attachments/Pasted image 20260603225923.png",
     "Papers & Articles/Attachments",
-    "Papers & Articles/Dyna — Richard Sutton (1990).md",
     "Untitled",
     "TO DO.md",
     "Papers & Articles",
