@@ -19,7 +19,7 @@
 
 ---
 
-### 3. A Path Towards Autonomous Machine Intelligence — Yann LeCun
+### 3. [[A Path Towards Autonomous Machine Intelligence — Yann LeCun]]
 
 **Why:** The manifesto behind JEPA, world models, hierarchical planning, and autonomous intelligence.
 
