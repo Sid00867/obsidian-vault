@@ -53,3 +53,6 @@ For instance, if we set the temperature parameter to a very low value of τ = 0.
 > An exciting research direction is to look at ways to incorporate artificial curiosity and intrinsic motivation (Schmidhu ber, 2010; 2006; 1991b; Pathak et al., 2017; Oudeyer et al., 2007) and information seeking (Schmidhuber et al., 1994; Gottlieb et al., 2013) abilities in an agent to encourage novel exploration (Lehman & Stanley, 2011). In particular, we can augment the reward function based on improvement in compression quality (Schmidhuber, 2010; 2006; 1991b; 2015a).
 
 In the present approach, since M is a MDN-RNN that mod els a probability distribution for the next frame, if it does a poor job, then it means the agent has encountered parts of the world that it is not familiar with. Therefore we can adapt and reuse M’s training loss function to encourage curiosity.
+![[Pasted image 20260604140824.png|540]]
+
+
