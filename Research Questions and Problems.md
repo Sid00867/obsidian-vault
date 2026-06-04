@@ -9,3 +9,22 @@
 
 -> An exciting research direction is to look at ways to incorporate artificial curiosity and intrinsic motivation  and information seeking abilities in an agent to encourage novel exploration . In particular, we can augment the reward function based on improvement in compression quality 
 
+=============
+
+Inductive Bias vs General Learners +
+
+Hierarchical planning & Goal Decomposition +
+
+Selection of fruitful reasoning paths +
+
+Information bottleneck (what information to retain?)
+
+Artificial Curiosity & Intrinsic Motivation
+
+Inference - When to use reactive policies and when to plan +
+
+Short term memory systems
+
+"Safety" drive for reward hacking and loopholes
+
+Sample efficient learning from video
