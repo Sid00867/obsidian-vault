@@ -19,3 +19,23 @@ They have another experiment, vizdoom, where they do imaginative training:
 
 Introducing Artificial uncertainty TAU in dream envs makes better and robust policies
 ![[Pasted image 20260604132021.png|563]]
+
+### 🌍 Key Idea
+
+- A **world model** is an approximate probabilistic representation of the environment.
+    
+- Because it’s only an approximation, it sometimes generates **trajectories that don’t obey the real environment’s rules**.
+    
+
+### ⚖️ Example
+
+- In the actual environment, the number of monsters in a room may differ from what the world model predicts.
+    
+- This is similar to how a child learns gravity but can still imagine superheroes flying — the model can produce unrealistic scenarios.
+    
+
+### 🎮 Implication
+
+- The **controller (agent)** can exploit these unrealistic trajectories in the world model.
+    
+- However, such exploits may not exist in the **real environment**, meaning the agent might learn strategies that don’t transfer well.
