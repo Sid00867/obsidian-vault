@@ -14,4 +14,8 @@ Furthermore, we see that in making these fast reflexive driving decisions during
 We dont do planning nor imaginative training here. simply letting the controller have access to the model improves it
 
 They have another experiment, vizdoom, where they do imaginative training:
-![[Pasted image 20260604131710.png|492]]
+![[Pasted image 20260604131710.png|492]]In this simulation, we do not need the V model to encode any real pixel frames during the hallucination process, so our agent will therefore only train entirely in a latent space environment. This has many advantages as we will see.
+![[Pasted image 20260604131837.png]]
+
+Introducing Artificial uncertainty TAU in dream envs makes better and robust policies
+![[Pasted image 20260604132021.png|563]]
