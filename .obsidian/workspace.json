@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "21192a5399f6a0ff",
@@ -203,14 +202,14 @@
   },
   "active": "054fd4932a6a783e",
   "lastOpenFiles": [
+    "Research Questions and Problems.md",
+    "RL and Domain Knowledge Recap.md",
     "Papers & Articles/A Path Towards Autonomous Machine Intelligence — Yann LeCun.md",
     "Papers & Articles/World Models in Autonomous Machine Intelligence - Architecture, Key Ideas, and Open Research Frontiers.md",
     "Papers & Articles/Attachments/Pasted image 20260604183341.png",
     "Papers & Articles/Attachments/Pasted image 20260604183331.png",
     "Reading list.md",
     "Tips on choosing research problems.md",
-    "RL and Domain Knowledge Recap.md",
-    "Research Questions and Problems.md",
     "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
     "README.md",
     "Papers & Articles/Dyna — Richard Sutton (1990).md",
