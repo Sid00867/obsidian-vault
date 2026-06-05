@@ -36,6 +36,8 @@ graph TD
 5. **Configurator**: The central controller. It receives inputs from all modules and dynamically modulates parameters, routes signals, sets subgoals, and configures the attention graphs of other modules (e.g., using Transformer tokens).
 6. **Short-Term Memory**: Stores and retrieves past states of the world to maintain a coherent belief state over time.
 
+![[Pasted image 20260605123313.png]]
+
 ### JEPA (Joint Embedding Predictive Architecture)
 Unlike generative models (e.g., Denoising Autoencoders or video predictors that predict raw pixels), a **JEPA** predicts *in representation space*. 
 
