@@ -37,7 +37,11 @@ graph TD
 6. **Short-Term Memory**: Stores and retrieves past states of the world to maintain a coherent belief state over time.
 
 Two modes of operation:
-1) Reactive mode - no planning
+1) Reactive mode - no planning, only the policy to make decisions (actor module)
+ ![[Pasted image 20260605130648.png|462]]
+ ![[Pasted image 20260605130858.png]]
+ 
+2) Reasoning & Planning - details below
 
 
 ![[Pasted image 20260605123313.png]]
