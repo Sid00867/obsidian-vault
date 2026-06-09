@@ -241,3 +241,47 @@ $$\mathbf{z}_{world}^{t+1} \sim p_\theta(\mathbf{z}_{world}^{t+1} \mid \mathbf{z
 $$\mathbf{z}_{self}^{t+1} \sim p_\phi(\mathbf{z}_{self}^{t+1} \mid \mathbf{z}_{self}^t, \text{sg}[\mathbf{z}_{world}^t], \mathbf{a}^t)$$
 
 Where $\text{sg}[\cdot]$ represents the **stop-gradient** operator. This mathematically ensures that Model B ($\phi$) adapts to the world ($\theta$), but the world model remains completely unconcerned with self-reflection, preserving a clean separation of roles.
+
+===============================================================
+
+
+Here is a compact, highly targeted reading list categorized by exactly how each paper serves your dual-model research framework.
+
+### 1. Robot Self-Modeling (Tracking Physical Self & Properties)
+
+- **"Task-agnostic self-modeling machines"** (Kwiatkowski & Lipson, 2019)
+    
+    - _Core Role:_ The foundational blueprint for an explicit model of "self" that learns internal physical/kinematic limits independent of external world physics.
+        
+- **"WeModel: Geometry-Grounded Body Tokens for Cross-Embodiment Robot Self-Modeling"** (Yang et al., 2024)
+    
+    - _Core Role:_ State-of-the-art implementation showing how to isolate a robot’s bodily configurations into dedicated latent "tokens" separate from environmental noise.
+        
+
+### 2. Metacognitive RL (Tracking Mind, Confidence, & Blind Spots)
+
+- **"Metacognitive Reinforcement Learning with Value Prediction Error Stability"** (2023/2024)
+    
+    - _Core Role:_ Provides a dual-loop framework where a parallel metacognitive monitor tracks prediction errors over time to stop the agent from driving into its own blind spots.
+        
+- **"SMGI: A Structural Theory of General Artificial Intelligence"** (arXiv, 2024)
+    
+    - _Core Role:_ Provides the formal mathematical framework ($\theta = (r, H, \Pi, L, E, M)$) needed to separate structural, internal learning interfaces from external environmental semantics.
+        
+
+### 3. Latent Isolation Architectures (Preventing Representation Collapse)
+
+- **"Mastering Diverse Domains through World Models" [DreamerV3]** (Hafner et al., 2023)
+    
+    - _Core Role:_ The gold standard for latent imagination rollouts using a Recurrent State-Space Model (RSSM). You will study this to learn where to split the latent state ($z_t$) using a `stop_gradient`.
+        
+- **"World Models"** (Ha & Schmidhuber, 2018)
+    
+    - _Core Role:_ The classic reference for modular separation of Vision (V), Memory (M), and Controller (C). Your framework will explicitly split the "M" module into separate World and Self models.
+        
+
+### 4. Intentions & Cognitive State Tracking (Preserving Intention)
+
+- **"A mechanistic theory of planning in prefrontal cortex"** (BioRxiv, 2024)
+    
+    - _Core Role:_ Explores how internal goal/intention attractors dynamically reconfigure physical world planning models, providing the neurological and algorithmic basis for your intention tracker.
