@@ -103,3 +103,64 @@ That's the question I'd keep pinned above your desk while reading. Everything el
 
 
 Do not frame it generally as "using uncertainty for exploration or safety." Instead, frame it as **Structural Metacognition in World Models**—designing an architecture where the world model treats its own learning constraints and epistemic boundaries as core internal states to be predicted alongside environmental transitions, eliminating the need for bulky ensembles or simplistic heuristic penalties.
+
+## Why a Parallel Self-Model "Improves" Learning
+
+In a standard world model (like DreamerV3), if an agent fails to predict an outcome, it treats it as an environmental error. It doesn't understand _why_ it failed. Separating the two models gives the agent a "Theory of Mind" applied to itself, unlocking three major capabilities:
+
+### 1. Intent Preservation Over Distraction (Intentions)
+
+- **The Standard Way:** If an agent is playing a game and gets knocked off course by a random obstacle, its policy must recalculate based entirely on the new environmental state.
+    
+- **The Self-Model Way:** The Self-Model tracks a persistent latent vector representing the agent's _active goal or intention_. Even if the environment changes drastically, the internal "intention vector" remains stable, allowing the agent to resume its original plan smoothly. It decouples _what I want to do_ from _what the environment is doing to me_.
+    
+
+### 2. Disentangling "My Body" from "The World" (Dangers & Blind Spots)
+
+- **The Standard Way:** If a robot's motor degrades or its camera gets smudged, a traditional world model thinks the physics of the _universe_ changed. It has to completely retrain its transition dynamics.
+    
+- **The Self-Model Way:** Pioneered by researchers like Hod Lipson (_"Task-agnostic self-modeling machines"_), a dedicated self-model simulates the robot’s own physical and functional boundaries. If a motor fails, the Self-Model updates its internal "competence map" instantly. The agent realizes, _"The world is the same, but my capability has shrunk,"_ allowing it to adapt safely without breaking its understanding of external physics.
+    
+
+### 3. Intentional Focus Control (Curiosity)
+
+- **The Standard Way:** The agent explores based on pixel-level prediction errors. If a television screen in the environment is flashing random noise, the agent gets stuck staring at it forever (the "Noisy TV problem") because the prediction error is always high.
+    
+- **The Self-Model Way:** The Self-Model tracks the agent's _own learning trajectory_. It notices, _"I have been staring at this TV for 100 steps, and my internal uncertainty is not decreasing."_ By recognizing its own lack of learning progress, it flags the area as an unlearnable blind spot and forces the agent to move on.
+    
+
+## The Core Structural Challenge (Your Research Angle)
+
+If you want to pursue this, the open research question isn't _whether_ this helps (intuitively, it does), but **how the two models interact.** In humans, our self-model and world model are deeply intertwined. If you want to build this computationally, you have to design the bridge between them:
+
+```
+[Environment] --------> [ World Model ] ---\
+                                            ---> [ Shared Latent Space ] ---> [ Policy / Planning ]
+[Internal Signals] ---> [  Self-Model  ] ---/
+```
+
+### How to frame your novelty:
+
+Instead of building a monolithic neural network, you can propose a **Split-Latent World Model Architecture**.
+
+- **Model A (The Physics Engine):** Predicts $P(s_{env}' \mid s_{env}, a)$.
+    
+- **Model B (The Metacognitive Engine):** Predicts $P(s_{self}' \mid s_{self}, s_{env}, a)$.
+    
+
+You then force the policy to plan using a joint representation of both. During imagination rollouts, the agent wouldn't just simulate what the environment will look like; it would simulate how its own internal states (confidence, intent preservation, risk) fluctuate across those future steps.
+
+## Verdict & Next Steps
+
+This is absolutely worth pursuing. It addresses a major flaw in current MBRL: the lack of structural ego-centric awareness.
+
+To ground this in existing literature so you can find your specific gap, look up:
+
+1. **"Task-agnostic self-modeling machines" (Kwiatkowski & Lipson)** – Great for tracking physical self-properties.
+    
+2. **"Modeling the Mental World for Embodied AI"** – Explores structuring internal mental states vs. physical world attributes.
+    
+3. **Metacognitive Reinforcement Learning (MCRL)** – The mathematical framework for agents evaluating their own internal components.
+    
+
+What specific domain are you thinking of testing this dual-m
