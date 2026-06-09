@@ -91,3 +91,15 @@ After stripping away all implementation details, the deepest version of the idea
 > **Should intelligent agents maintain models of themselves in the same way they maintain models of the external world, and what computational advantages emerge when they do?**
 
 That's the question I'd keep pinned above your desk while reading. Everything else is an attempt to make that question experimentally tractable.
+
+================
+
+| **Paper / Framework**                                          | **Core Mechanism**                                                                                       | **Relevance to Your Idea**                                                 |
+| -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| **Plan2Explore** (Sekar et al.)                                | Uses an ensemble of novelty-seeking transition models to plan for maximum expected misalignment.         | Best baseline for "seeking out blind spots."                               |
+| **MOPO / COMBO**                                               | Pessimistic offline MBRL that penalizes rewards based on model uncertainty.                              | Standard framework for how uncertainty alters decision-making.             |
+| **World Action Verifier (WAV)** _(Recent 2026 Work)_           | Decomposes state prediction into plausibility and action reachability to self-verify.                    | Cutting-edge example of a world model assessing its own structural limits. |
+| **Pathways to AGI Survey / LeCun's Configurator Architecture** | Proposes hierarchical world models containing an explicit "cost/energy" module assessing self-alignment. | Conceptual framework for self-reflective AI agents.                        |
+
+
+Do not frame it generally as "using uncertainty for exploration or safety." Instead, frame it as **Structural Metacognition in World Models**—designing an architecture where the world model treats its own learning constraints and epistemic boundaries as core internal states to be predicted alongside environmental transitions, eliminating the need for bulky ensembles or simplistic heuristic penalties.
