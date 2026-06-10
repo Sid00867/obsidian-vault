@@ -285,3 +285,31 @@ Here is a compact, highly targeted reading list categorized by exactly how each 
 - **"A mechanistic theory of planning in prefrontal cortex"** (BioRxiv, 2024)
     
     - _Core Role:_ Explores how internal goal/intention attractors dynamically reconfigure physical world planning models, providing the neurological and algorithmic basis for your intention tracker.
+## 2. Related Works: Where This Fundamental Learning Lives
+
+The works that match your intuition are not about hardware optimization or error-minimization safety; they focus on **blame assignment, cognitive planning, and the value of thought.**
+
+### A. Model-Based Metareasoning for Credit Assignment
+
+- **The Paper:** _Combining Model-Based Meta-Reasoning and Reinforcement Learning for Adapting Game-Playing Agents_ (Goel & Murdock).
+    
+- **The Core Insight:** This is a classic, highly relevant framework. Instead of a flat RL agent that blindly updates its weights through millions of trial-and-error steps when it fails, this architecture pairs RL with a model-based meta-reasoner. The agent possesses a formal self-model of its own knowledge and reasoning structure. When it encounters a failure, it uses the self-model to perform **blame assignment**—it localizes _exactly_ which part of its internal knowledge abstraction broke down, carving the learning space into a tiny subspace. This allows the RL algorithm to adapt and generalize with incredible speed compared to standard models.
+    
+
+### B. Rational Metareasoning & Value of Computation
+
+- **The Papers:** _Rational Metareasoning for Large Language Models_ (2025/2026 AI Frameworks) / _Rational metareasoning and the plasticity of cognitive control_ (Griffiths et al.).
+    
+- **The Core Insight:** Derived from classic theories by Russell & Wefald, this line of research formalizes the mathematical **Value of Computation (VOC)**. It proves that an agent can learn a predictive model of its own internal strategies. Instead of just reacting to stimuli, the agent computes whether performing an internal mental operation (like reasoning longer or shifting an intention) will yield an expected increase in utility compared to the cognitive "cost" of the data or compute. It treats _thinking itself_ as a manageable, modelable action space.
+    
+
+### C. Knowledge-Driven Hierarchical Task Monitoring
+
+- **The Paper:** _Towards life-long adaptive agents: using metareasoning for combining knowledge-based planning with situated learning_ (Parashar et al.).
+    
+- **The Core Insight:** This work designs a multilayered architecture where a meta-reasoner monitors high-level planning expectations against incoming world observations. When a discrepancy occurs, the meta-reasoner abstracts the problem, figures out the precise gap in its current generalization layout, and creates specific localized goals and reward heuristics for a low-level learner to fill. It demonstrates how tracking internal expectations—rather than just environment variables—dramatically accelerates life-long learning.
+    
+
+## The Ultimate Blueprint for Your Research
+
+By synthesizing this literature, you can explicitly frame your system as a **Split-Latent Metacognitive World Model**. Your unique contribution to this lineage is taking the structural, self-reflective logic of _Goel & Murdock_ or _Parashar et al._ and engineering it directly into modern, deep, high-dimensional **latent world models** like Dreamer or JEPA.
