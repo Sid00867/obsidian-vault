@@ -336,4 +336,4 @@ basically the metacognition controller controls:
 i still dong get how i can go about getting these signals mechanistically in the first place, and secondly how to train and let them control the stuff,
 
 i still wonder if we can go beyond this mechanistic perspective into even something deeper
-wi
+with my idea of what to model in the metacognitive dynamics
