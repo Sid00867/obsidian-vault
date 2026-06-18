@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "New Question 2.md",
+                "file": "Deep Research.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "New Question 2"
+              "title": "Deep Research"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 219.5,
+    "collapsed": true
   },
   "right": {
     "id": "21192a5399f6a0ff",
@@ -202,25 +203,26 @@
   },
   "active": "054fd4932a6a783e",
   "lastOpenFiles": [
-    "New Question.md",
-    "New Question 2.md",
-    "Untitled",
     "RL and Domain Knowledge Recap.md",
+    "Research Questions and Problems.md",
+    "Reading list.md",
+    "New Question 2.md",
+    "New Question.md",
+    "Deep Research.md",
+    "Papers & Articles/World Models in Autonomous Machine Intelligence - Architecture, Key Ideas, and Open Research Frontiers.md",
+    "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
+    "Papers & Articles/Dyna — Richard Sutton (1990).md",
     "Papers & Articles/A Path Towards Autonomous Machine Intelligence — Yann LeCun.md",
     "Papers & Articles/3B1B Information trilogy.md",
-    "Reading list.md",
-    "Papers & Articles/World Models in Autonomous Machine Intelligence - Architecture, Key Ideas, and Open Research Frontiers.md",
+    "Untitled",
     "Papers & Articles/Attachments/Pasted image 20260605130858.png",
     "Papers & Articles/Attachments/Pasted image 20260605130648.png",
     "Papers & Articles/Attachments/Pasted image 20260605125538.png",
     "Papers & Articles/Attachments/Pasted image 20260605123313.png",
-    "Research Questions and Problems.md",
     "Papers & Articles/Attachments/Pasted image 20260604183341.png",
     "Papers & Articles/Attachments/Pasted image 20260604183331.png",
     "Tips on choosing research problems.md",
-    "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
     "README.md",
-    "Papers & Articles/Dyna — Richard Sutton (1990).md",
     "Papers & Articles/Attachments/Pasted image 20260604140824.png",
     "Papers & Articles/Attachments/Pasted image 20260604135004.png",
     "Papers & Articles/Attachments/Pasted image 20260604132021.png",
