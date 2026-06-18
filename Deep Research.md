@@ -14,5 +14,4 @@
 
 - **Learning vs Planning Loop:** _What information should the planner query from the world model (e.g. reward vs transition vs latent dynamics) for optimal planning?_
 
-- **Search Space:** _Are current planners searching in the right space?_ (Should planners search in observation, latent, or abstract goal space?)
 
