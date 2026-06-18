@@ -6,8 +6,6 @@
 
 - **Prediction Objective Validity:** _Is next-step prediction (in observation or latent space) the correct learning objective for all tasks?_ (It may focus on low-level detail rather than decision-critical factors.)
 
-- **Latent Consistency:** _How can we ensure that latent representations remain consistent over long horizons and varied observations?_ (Current world models drift over time.)
-
 - **Multi-Scale Latents:** _Should latent states exist at multiple time scales simultaneously, and if so, how to learn and use them?_
 
 - **Memory Integration:** _What is the role of memory in extended decision-making?_ (What should memories store, and how should planners query memory vs sensory inputs?)
