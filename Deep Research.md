@@ -9,3 +9,12 @@
 - **Latent Consistency:** _How can we ensure that latent representations remain consistent over long horizons and varied observations?_ (Current world models drift over time.)
 
 - **Multi-Scale Latents:** _Should latent states exist at multiple time scales simultaneously, and if so, how to learn and use them?_
+
+- **Memory Integration:** _What is the role of memory in extended decision-making?_ (What should memories store, and how should planners query memory vs sensory inputs?)
+
+- **Exploration Utility:** _What truly makes an experience “useful” for an agent, beyond simple novelty?_ (E.g. tasks where novelty-based signals lead to dead ends.)
+
+- **Learning vs Planning Loop:** _What information should the planner query from the world model (e.g. reward vs transition vs latent dynamics) for optimal planning?_
+
+- **Search Space:** _Are current planners searching in the right space?_ (Should planners search in observation, latent, or abstract goal space?)
+
