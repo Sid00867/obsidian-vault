@@ -13,44 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers & Articles/A Path Towards Autonomous Machine Intelligence — Yann LeCun.md",
+                "file": "Papers & Articles/World Models in Autonomous Machine Intelligence - Architecture, Key Ideas, and Open Research Frontiers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A Path Towards Autonomous Machine Intelligence — Yann LeCun"
-            }
-          },
-          {
-            "id": "054fd4932a6a783e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "New Question 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "New Question 2"
-            }
-          },
-          {
-            "id": "c18faaf5b404208e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers & Articles/A Path Towards Autonomous Machine Intelligence — Yann LeCun.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "A Path Towards Autonomous Machine Intelligence — Yann LeCun"
+              "title": "World Models in Autonomous Machine Intelligence - Architecture, Key Ideas, and Open Research Frontiers"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,36 +185,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a229ff1f0dee7e27",
+  "active": "01cb0acac5201ce5",
   "lastOpenFiles": [
-    "Untitled",
+    "Papers & Articles/Dyna — Richard Sutton (1990).md",
+    "Papers & Articles/A Path Towards Autonomous Machine Intelligence — Yann LeCun.md",
+    "Reading list.md",
+    "Deep Research.md",
+    "TO DO.md",
+    "Tips on choosing research problems.md",
+    "RL and Domain Knowledge Recap.md",
+    "Research Questions and Problems.md",
+    "README.md",
+    "New Question 3.md",
+    "New Question 2.md",
+    "New Question.md",
+    "Resources/World Models Survey.pdf",
+    "Resources/Sutton Book.pdf",
+    "Untitled.md",
+    "Resources",
     "Papers & Articles/World Models in Autonomous Machine Intelligence - Architecture, Key Ideas, and Open Research Frontiers.md",
     "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
-    "Papers & Articles/A Path Towards Autonomous Machine Intelligence — Yann LeCun.md",
-    "Papers & Articles/Dyna — Richard Sutton (1990).md",
     "Papers & Articles/3B1B Information trilogy.md",
-    "Reading list.md",
-    "New Question 3.md",
     "Attachments/Pasted image 20260627000234.png",
     "Attachments/Pasted image 20260627000132.png",
     "chatgptconvo.md",
-    "New Question 2.md",
-    "New Question.md",
-    "RL and Domain Knowledge Recap.md",
-    "Deep Research.md",
-    "Research Questions and Problems.md",
     "Papers & Articles/Attachments/Pasted image 20260605130858.png",
     "Papers & Articles/Attachments/Pasted image 20260605130648.png",
     "Papers & Articles/Attachments/Pasted image 20260605125538.png",
     "Papers & Articles/Attachments/Pasted image 20260605123313.png",
     "Papers & Articles/Attachments/Pasted image 20260604183341.png",
     "Papers & Articles/Attachments/Pasted image 20260604183331.png",
-    "Tips on choosing research problems.md",
-    "README.md",
     "Papers & Articles/Attachments/Pasted image 20260604140824.png",
     "Papers & Articles/Attachments/Pasted image 20260604135004.png",
     "Papers & Articles/Attachments",
-    "TO DO.md",
     "Papers & Articles",
     "Attachments",
     "Welcome.md"
