@@ -7,4 +7,9 @@ problem -> LLMs are explicitly trained to do step by step reasoning as their lat
 
 alternative? -> i notice a link towards time abstracted predictions. a task/scenario specific version of my idea could be utilized. where the model selects for itself a coarse level of "T" to train by, plan and predict with.
 
-example :
+example : in atari pong, the agent does not need to predict every frame of the game to make accurate predictions
+
+problem -> how do you bundle action sequences towards the latent state training objective? what happens in planning?
+
+
+[[https://chatgpt.com/share/6a3ec49b-1bb8-83ee-883b-297628e77053]
