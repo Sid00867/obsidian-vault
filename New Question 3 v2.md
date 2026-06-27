@@ -1,3 +1,7 @@
+
+[[Reading mat new q 3 v2]]
+
+
 Given everything we've discussed over the past few days, I think you should stop trying to invent an entire new RL framework and instead look for a single missing capability. Here are directions I'd rank by tractability.
 
 1. Adaptive Prediction Horizon (9/10)
