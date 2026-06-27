@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Reading mat new q 3 v2"
             }
+          },
+          {
+            "id": "9fb2f1529ac79753",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attachments/Adaptive Abstraction Reading Roadmap.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Adaptive Abstraction Reading Roadmap"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,10 +212,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8979c6f8eba8b9c1",
+  "active": "9fb2f1529ac79753",
   "lastOpenFiles": [
-    "Reading mat new q 3 v2.md",
     "New Question 3 v2.md",
+    "Reading mat new q 3 v2.md",
+    "Attachments/Adaptive Abstraction Reading Roadmap.pdf",
     "New Question 3.md",
     "Deep Research.md",
     "Papers & Articles/World Models in Autonomous Machine Intelligence - Architecture, Key Ideas, and Open Research Frontiers.md",
