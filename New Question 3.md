@@ -13,7 +13,7 @@ problem -> how do you bundle action sequences towards the latent state training 
 
 > an idea -> COARSE action variables. i just realized there could be a level of abstraction in the action space too that could be learnt during training and utilized when available and necessary.
 > like "go there" instead of "take a step using you left foot"
-
+.
 isnt this just subgoal generation? how is it any different?
 
 https://chatgpt.com/share/6a3ec49b-1bb8-83ee-883b-297628e77053
