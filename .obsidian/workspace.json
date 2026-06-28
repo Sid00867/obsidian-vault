@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,7 +214,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "51daa9ee6cac8abf",
+  "active": "8979c6f8eba8b9c1",
   "lastOpenFiles": [
     "MBPO — When to Trust Your Model Model-Based Policy Optimization.md",
     "Reading mat new q 3 v2.md",
