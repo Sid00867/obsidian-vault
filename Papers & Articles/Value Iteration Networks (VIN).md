@@ -1,0 +1,9 @@
+The VIN first passes the input (e.g., a maze or environment map) through a CNN, which learns an internal representation of the environment. From this representation, it predicts the reward structure of the underlying MDP (and, depending on the implementation, the transition dynamics through learned convolutional kernels). 
+
+Instead of directly outputting an action, the network feeds this learned MDP into a differentiable Value Iteration module. This module repeatedly applies Bellman updates, implemented as convolutions followed by a max operation, to iteratively propagate reward information across the state space, producing a value function V(s) and action-value function Q(s,a) for every state. 
+
+In effect, the network constructs a global "planning landscape," where each state's value reflects the expected long-term return of being there under the optimal policy. An attention module then extracts only the subset of Q-values corresponding to the agent's current location (or a small neighborhood around it), since those are sufficient to determine the immediate action. 
+
+Finally, a lightweight policy network uses these attended planning features to select the next action. The key insight is that the network is not learning a direct mapping from observations to actions; instead, it learns an internal MDP, explicitly performs planning over it using differentiable value iteration, and only then chooses an action based on the resulting plan.
+
+This decomposition—**learn the environment → plan over the learned environment → attend to the relevant part of the plan → act**—is the central idea of the paper

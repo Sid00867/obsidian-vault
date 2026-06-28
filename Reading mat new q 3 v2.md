@@ -4,7 +4,7 @@
 1. [[MBPO — When to Trust Your Model Model-Based Policy Optimization  ]]
     [Paper (arXiv)](https://arxiv.org/abs/1906.08253?utm_source=chatgpt.com)
     
-2. **Value Iteration Networks (VIN)**  
+2. **[[Value Iteration Networks (VIN)]]**  
     [Paper (arXiv)](https://arxiv.org/abs/1602.02867?utm_source=chatgpt.com)
     
 3. **DreamerV3 — Mastering Diverse Domains through World Models** _(preprint)_  
