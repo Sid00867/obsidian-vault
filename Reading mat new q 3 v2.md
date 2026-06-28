@@ -1,7 +1,7 @@
 ![[Adaptive Abstraction Reading Roadmap.pdf]]
 
 
-1. **MBPO — When to Trust Your Model: Model-Based Policy Optimization**  
+1. [[MBPO — When to Trust Your Model Model-Based Policy Optimization  ]]
     [Paper (arXiv)](https://arxiv.org/abs/1906.08253?utm_source=chatgpt.com)
     
 2. **Value Iteration Networks (VIN)**  
