@@ -14,7 +14,7 @@
 4. **LAPO — [[Learning to Act without Actions ]] 
     [Paper (arXiv)](https://arxiv.org/abs/2312.10812?utm_source=chatgpt.com)
     
-5. **THICK — Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics**  
+5. **THICK — [[Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics ]]
     [Paper (ICLR)](https://proceedings.iclr.cc/paper_files/paper/2024/file/13b45b44e26c353c64cba9529bf4724f-Paper-Conference.pdf?utm_source=chatgpt.com)
     
 6. **CFHRL — [[Adaptive Coarse-to-Fine Subgoal Refinement for Long-Horizon Offline Goal-Conditioned Reinforcement Learning ]]
