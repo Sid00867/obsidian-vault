@@ -17,7 +17,7 @@
 5. **THICK — Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics**  
     [Paper (ICLR)](https://proceedings.iclr.cc/paper_files/paper/2024/file/13b45b44e26c353c64cba9529bf4724f-Paper-Conference.pdf?utm_source=chatgpt.com)
     
-6. **CFHRL — Adaptive Coarse-to-Fine Subgoal Refinement for Long-Horizon Offline Goal-Conditioned Reinforcement Learning**  
+6. **CFHRL — [[Adaptive Coarse-to-Fine Subgoal Refinement for Long-Horizon Offline Goal-Conditioned Reinforcement Learning ]]
     [Paper (arXiv)](https://arxiv.org/abs/2605.28127?utm_source=chatgpt.com)
     
 7. **MTS3 — Multi Time Scale State Space**  
