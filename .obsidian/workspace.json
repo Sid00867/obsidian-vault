@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
+                "file": "Reading mat new q 3 v2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "World Models — Ha & Schmidhuber (2018)"
+              "title": "Reading mat new q 3 v2"
+            }
+          },
+          {
+            "id": "c083b68c76f0d676",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reading mat new q 3 v2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reading mat new q 3 v2"
             }
           },
           {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -214,10 +228,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "9fab407b389b49c9",
+  "active": "c083b68c76f0d676",
   "lastOpenFiles": [
-    "Papers & Articles/World Models in Autonomous Machine Intelligence - Architecture, Key Ideas, and Open Research Frontiers.md",
+    "Papers & Articles/MTS3 — Multi Time Scale State Space.md",
+    "Attachments/Pasted image 20260629205333.png",
+    "Reading mat new q 3 v2.md",
     "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
+    "Papers & Articles/World Models in Autonomous Machine Intelligence - Architecture, Key Ideas, and Open Research Frontiers.md",
     "Papers & Articles/Value Iteration Networks (VIN).md",
     "Papers & Articles/State Space Models.md",
     "Papers & Articles/MBPO — When to Trust Your Model Model-Based Policy Optimization.md",
@@ -227,7 +244,6 @@
     "Papers & Articles/Adaptive Coarse-to-Fine Subgoal Refinement for Long-Horizon Offline Goal-Conditioned Reinforcement Learning.md",
     "Papers & Articles/A Path Towards Autonomous Machine Intelligence — Yann LeCun.md",
     "Papers & Articles/Attachments/Pasted image 20260629190112.png",
-    "Reading mat new q 3 v2.md",
     "Questions/Research Questions and Problems.md",
     "Questions/New Question 3 v2.md",
     "Papers & Articles/3B1B Information trilogy.md",
@@ -252,12 +268,10 @@
     "Resources",
     "Attachments/Pasted image 20260627000234.png",
     "Attachments/Pasted image 20260627000132.png",
-    "chatgptconvo.md",
     "Papers & Articles/Attachments/Pasted image 20260605130858.png",
     "Papers & Articles/Attachments/Pasted image 20260605130648.png",
     "Papers & Articles/Attachments/Pasted image 20260605125538.png",
     "Papers & Articles/Attachments/Pasted image 20260605123313.png",
-    "Papers & Articles/Attachments/Pasted image 20260604183341.png",
     "Papers & Articles/Attachments",
     "Papers & Articles",
     "Attachments"

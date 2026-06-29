@@ -20,7 +20,7 @@
 6. **CFHRL — [[Adaptive Coarse-to-Fine Subgoal Refinement for Long-Horizon Offline Goal-Conditioned Reinforcement Learning ]]
     [Paper (arXiv)](https://arxiv.org/abs/2605.28127?utm_source=chatgpt.com)
     
-7. **MTS3 — Multi Time Scale State Space**  
+7. [[MTS3 — Multi Time Scale State Space]]  
     [Paper (OpenReview)](https://openreview.net/forum?id=fY7dShbtmo&utm_source=chatgpt.com)
     
 8. **LBP — Efficient Robotic Policy Learning via Latent Space Backward Planning**  
