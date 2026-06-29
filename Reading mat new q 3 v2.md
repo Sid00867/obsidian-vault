@@ -11,7 +11,7 @@
     [Paper (arXiv)](https://arxiv.org/abs/2301.04104?utm_source=chatgpt.com)  
     **Nature version:** [Paper (Nature)](https://www.nature.com/articles/s41586-025-08744-2?utm_source=chatgpt.com)
     
-4. **LAPO — Learning to Act without Actions**  
+4. **LAPO — [[Learning to Act without Actions ]] 
     [Paper (arXiv)](https://arxiv.org/abs/2312.10812?utm_source=chatgpt.com)
     
 5. **THICK — Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics**  
