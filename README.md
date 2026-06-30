@@ -1,4 +1,3 @@
-
 ==Rough draft from my pre literature synthesis:==
 
 ->I am excited about world models, particularly how can one focus on getting compact and useful representations about the world [a good representation is something that holds maximal info useful for the task in the most minimal variables possible] 
