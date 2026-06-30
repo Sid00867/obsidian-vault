@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5,
-    "collapsed": true
+    "width": 219.5
   },
   "right": {
     "id": "21192a5399f6a0ff",
@@ -216,12 +215,14 @@
   },
   "active": "8979c6f8eba8b9c1",
   "lastOpenFiles": [
+    "Tips on choosing research problems.md",
+    "Reading mat new q 3 v2.md",
+    "Papers & Articles/Macro Action Reinforcement Learning with Sequence Disentanglement using Variational Autoencoder.md",
     "Papers & Articles/Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics.md",
     "Papers & Articles/Dyna — Richard Sutton (1990).md",
     "Papers & Articles/Adaptive Coarse-to-Fine Subgoal Refinement for Long-Horizon Offline Goal-Conditioned Reinforcement Learning.md",
     "Papers & Articles/A Path Towards Autonomous Machine Intelligence — Yann LeCun.md",
     "Papers & Articles/Learning to Act without Actions.md",
-    "Papers & Articles/Macro Action Reinforcement Learning with Sequence Disentanglement using Variational Autoencoder.md",
     "Papers & Articles/MBPO — When to Trust Your Model Model-Based Policy Optimization.md",
     "Papers & Articles/MTS3 — Multi Time Scale State Space.md",
     "Papers & Articles/State Space Models.md",
@@ -234,8 +235,6 @@
     "Papers & Articles/Attachments/Pasted image 20260630140900.png",
     "Questions/New Question 3.md",
     "Questions/New Question 3 v2.md",
-    "Reading mat new q 3 v2.md",
-    "Tips on choosing research problems.md",
     "Untitled.canvas",
     "Attachments/Pasted image 20260629205333.png",
     "Papers & Articles/Attachments/Pasted image 20260629190112.png",
