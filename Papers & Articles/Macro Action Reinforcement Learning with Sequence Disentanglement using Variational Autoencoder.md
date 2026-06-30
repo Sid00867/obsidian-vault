@@ -37,3 +37,5 @@ The paper **does not learn what makes a macro-action useful**. Both the segmenta
 - The pipeline is split into independent stages (segmentation → latent learning → RL), preventing joint optimization. Many later methods instead learn skills and policies end-to-end or use objectives that explicitly encourage useful behaviors.
 
 
+
+
