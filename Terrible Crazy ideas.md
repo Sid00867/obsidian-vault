@@ -6,4 +6,8 @@
 
 -> an ensemble of world models, modelling each other, trying to maximize some value in an environment, improving the baseline.
 
--> a simulator of the universe, modelled by an MBRL algotihm
+-> a model of the universe, modelled by an MBRL algorithm. trained on some data/env that is in some sense a higher abstraction of the world
+
+-> testing reward deprivation, i.e if an agent would still go to rewarding states if they are not rewarding anymore and they become rewarding later again. (a reward memory?)
+
+-> giving an ag
