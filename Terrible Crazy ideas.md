@@ -14,4 +14,9 @@
 
 -> scenario based imagination rollouts, allow the model to construct "artefacts" in the imagined world and observe how it might help/hinder/behave
 
--> 
+-> an agent capable of encoding human valence and arousal in its behaviour. 
+
+-> hallucinatory environments, agents have to discover and act against some bizarre hallucinatory algorithm that warps the true reality's behaviour.
+
+-> a sense of "i can do better" in agents??
+
