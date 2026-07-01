@@ -10,4 +10,8 @@
 
 -> testing reward deprivation, i.e if an agent would still go to rewarding states if they are not rewarding anymore and they become rewarding later again. (a reward memory?)
 
--> giving an ag
+-> giving an agent a sort of a mathematically defined "purpose" and a typical reward function, seeing what it does, does it reward maximize or try fulfill that "purpose"
+
+-> scenario based imagination rollouts, allow the model to construct "artefacts" in the imagined world and observe how it might help/hinder/behave
+
+-> 
