@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions/New Question 3 v2.md",
+                "file": "Crazy ideas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "New Question 3 v2"
+              "title": "Crazy ideas"
             }
           },
           {
@@ -215,10 +215,15 @@
   },
   "active": "8979c6f8eba8b9c1",
   "lastOpenFiles": [
+    "Reading mat new q 3 v2.md",
+    "Crazy ideas.md",
+    "README.md",
+    "summarized knowledge and insights/RL and Domain Knowledge Recap.md",
+    "summarized knowledge and insights/Tips on choosing research problems.md",
+    "summarized knowledge and insights",
+    "Questions/New Question 3 v2.md",
     "Questions/Research Questions and Problems.md",
     "Papers & Articles/Macro Action Reinforcement Learning with Sequence Disentanglement using Variational Autoencoder.md",
-    "Tips on choosing research problems.md",
-    "Reading mat new q 3 v2.md",
     "Papers & Articles/Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics.md",
     "Papers & Articles/Dyna — Richard Sutton (1990).md",
     "Papers & Articles/Adaptive Coarse-to-Fine Subgoal Refinement for Long-Horizon Offline Goal-Conditioned Reinforcement Learning.md",
@@ -230,21 +235,17 @@
     "Papers & Articles/Value Iteration Networks (VIN).md",
     "Papers & Articles/World Models — Ha & Schmidhuber (2018).md",
     "Papers & Articles/World Models in Autonomous Machine Intelligence - Architecture, Key Ideas, and Open Research Frontiers.md",
-    "README.md",
     "Questions/Deep Research.md",
     "Reading list.md",
     "Papers & Articles/Attachments/Pasted image 20260630140900.png",
     "Questions/New Question 3.md",
-    "Questions/New Question 3 v2.md",
     "Untitled.canvas",
     "Attachments/Pasted image 20260629205333.png",
     "Papers & Articles/Attachments/Pasted image 20260629190112.png",
     "Papers & Articles/3B1B Information trilogy.md",
     "Papers & Articles/Attachments/Pasted image 20260629182854.png",
-    "Untitled.md",
     "Resources/Sutton Book.pdf",
     "Resources/Deep+Learning+Ian+Goodfellow.pdf",
-    "RL and Domain Knowledge Recap.md",
     "Papers & Articles/Attachments/Pasted image 20260629135544.png",
     "Questions/New Question.md",
     "Questions/New Question 2.md",
