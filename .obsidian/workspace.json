@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Crazy ideas.md",
+                "file": "Terrible Crazy ideas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Crazy ideas"
+              "title": "Terrible Crazy ideas"
             }
           },
           {
@@ -216,7 +216,7 @@
   "active": "8979c6f8eba8b9c1",
   "lastOpenFiles": [
     "Reading mat new q 3 v2.md",
-    "Crazy ideas.md",
+    "Terrible Crazy ideas.md",
     "README.md",
     "summarized knowledge and insights/RL and Domain Knowledge Recap.md",
     "summarized knowledge and insights/Tips on choosing research problems.md",
