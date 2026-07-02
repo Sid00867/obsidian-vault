@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terrible Crazy ideas.md",
+                "file": "GRASP Paper Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Terrible Crazy ideas"
+              "title": "GRASP Paper Notes"
             }
           },
           {
@@ -210,13 +210,15 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "templates:Insert template": false
+      "templates:Insert template": false,
+      "auto-math:Toggle plugin": false
     }
   },
   "active": "8979c6f8eba8b9c1",
   "lastOpenFiles": [
-    "Reading mat new q 3 v2.md",
     "Terrible Crazy ideas.md",
+    "GRASP Paper Notes.md",
+    "Reading mat new q 3 v2.md",
     "README.md",
     "summarized knowledge and insights/RL and Domain Knowledge Recap.md",
     "summarized knowledge and insights/Tips on choosing research problems.md",
