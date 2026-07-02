@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GRASP Paper Notes.md",
+                "file": "Papers & Articles/GRASP Paper Notes.md",
                 "mode": "source",
                 "source": false
               },
@@ -49,7 +49,8 @@
               "title": "Tips on choosing research problems"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,10 +215,10 @@
       "auto-math:Toggle plugin": false
     }
   },
-  "active": "8979c6f8eba8b9c1",
+  "active": "9fab407b389b49c9",
   "lastOpenFiles": [
+    "Papers & Articles/GRASP Paper Notes.md",
     "Terrible Crazy ideas.md",
-    "GRASP Paper Notes.md",
     "Reading mat new q 3 v2.md",
     "README.md",
     "summarized knowledge and insights/RL and Domain Knowledge Recap.md",
