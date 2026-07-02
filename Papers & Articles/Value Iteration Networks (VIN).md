@@ -7,3 +7,4 @@ In effect, the network constructs a global "planning landscape," where each stat
 Finally, a lightweight policy network uses these attended planning features to select the next action. The key insight is that the network is not learning a direct mapping from observations to actions; instead, it learns an internal MDP, explicitly performs planning over it using differentiable value iteration, and only then chooses an action based on the resulting plan.
 
 This decomposition—**learn the environment → plan over the learned environment → attend to the relevant part of the plan → act**—is the central idea of the paper
+
