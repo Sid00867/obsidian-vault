@@ -20,4 +20,4 @@
 
 -> a sense of "i can do better" in agents??
 
--> novel exploration grounded on how useful the novelty could be.  m 
+-> novel exploration grounded on how useful the novelty could be.  m  
