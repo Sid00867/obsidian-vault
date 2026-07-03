@@ -25,12 +25,14 @@
             "id": "9fab407b389b49c9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Resources/World Models Survey.pdf"
+                "file": "Terrible Crazy ideas.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "World Models Survey"
+              "icon": "lucide-file",
+              "title": "Terrible Crazy ideas"
             }
           },
           {
@@ -213,8 +215,10 @@
       "auto-math:Toggle plugin": false
     }
   },
-  "active": "a229ff1f0dee7e27",
+  "active": "9fab407b389b49c9",
   "lastOpenFiles": [
+    "Papers & Articles/Learning to Act without Actions.md",
+    "Resources/World Models Survey.pdf",
     "Resources/DRL Survey.pdf",
     "Resources/Deep+Learning+Ian+Goodfellow.pdf",
     "Papers & Articles/Value Iteration Networks (VIN).md",
@@ -226,7 +230,6 @@
     "Papers & Articles/MTS3 — Multi Time Scale State Space.md",
     "Papers & Articles/MBPO — When to Trust Your Model Model-Based Policy Optimization.md",
     "Papers & Articles/Macro Action Reinforcement Learning with Sequence Disentanglement using Variational Autoencoder.md",
-    "Papers & Articles/Learning to Act without Actions.md",
     "Papers & Articles/Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics.md",
     "Papers & Articles/GRASP Paper Notes.md",
     "Papers & Articles/Dyna — Richard Sutton (1990).md",
@@ -254,7 +257,6 @@
     "Questions/New Question.md",
     "Questions",
     "Attachments/Adaptive Abstraction Reading Roadmap.pdf",
-    "Resources/World Models Survey.pdf",
     "Resources",
     "Attachments/Pasted image 20260627000234.png",
     "Attachments/Pasted image 20260627000132.png",
