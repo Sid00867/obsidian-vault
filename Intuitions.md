@@ -11,4 +11,6 @@
 
 -> The core function of episodic memory may not be accurate historical record-keeping at all — it may be to supply the raw material (fragments of past experience) that gets flexibly recombined to simulate _future_ scenarios.
 
--> 
+-> That asymmetry suggests reasoning's evolutionary function was persuasion and justification within a group, with truth-tracking as a secondary, sometimes incidental, byproduct. **Why it might be true:** Mercier and Sperber's "argumentative theory of reasoning" explains confirmation bias (a notorious "flaw") as functional: if reasoning's job is to construct the strongest case for a position you already hold, seeking confirming evidence is exactly correct behavior, not a bug. its why groups reasoning together often produce _better_ answers
+
+->
