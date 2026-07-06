@@ -13,4 +13,6 @@
 
 -> That asymmetry suggests reasoning's evolutionary function was persuasion and justification within a group, with truth-tracking as a secondary, sometimes incidental, byproduct. **Why it might be true:** Mercier and Sperber's "argumentative theory of reasoning" explains confirmation bias (a notorious "flaw") as functional: if reasoning's job is to construct the strongest case for a position you already hold, seeking confirming evidence is exactly correct behavior, not a bug. its why groups reasoning together often produce _better_ answers
 
-->
+->Fast, intuitive System 1" and "slow, deliberate System 2" are useful shorthand, but a growing critique holds that there aren't two separate cognitive systems at all — just one continuum of processing that varies in effort, speed, and how much it's shaped by context, mislabeled as a dichotomy because the extremes are salient
+
+-> 
