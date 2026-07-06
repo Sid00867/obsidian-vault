@@ -23,3 +23,8 @@
 
 -> Loewenstein's "information gap theory" predicts (and finds) that curiosity intensifies right around the point where you know _just enough_ to realize what you're missing
 
+-> People get stuck on problems not from lack of raw ability but because an object or concept's most recent or most typical use "locks" its representation, blocking recognition of other equally valid uses — and this locking effect is strongest exactly when the fixating use was made most salient or recent.
+
+-> Self-organized criticality: intelligence-friendly regimes aren't designed, they're attained. is it possible to make a training heurestic/algorithm that basically does this? **Core intuition:** Many complex systems (sandpiles, forest fires, arguably cortical neural activity) naturally tune themselves toward a critical point — poised between order and disorder — without any external tuning, because that's the regime that maximizes their dynamic range and information-processing capacity
+
+->
