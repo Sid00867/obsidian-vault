@@ -15,4 +15,7 @@
 
 ->Fast, intuitive System 1" and "slow, deliberate System 2" are useful shorthand, but a growing critique holds that there aren't two separate cognitive systems at all — just one continuum of processing that varies in effort, speed, and how much it's shaped by context, mislabeled as a dichotomy because the extremes are salient
 
--> 
+-> Higher-level abstract concepts aren't qualitatively different kinds of representation from low-level sensory ones — they emerge from the same predictive machinery operating at slower timescales, compressing regularities that are stable over longer stretches of experience.
+
+
+->
