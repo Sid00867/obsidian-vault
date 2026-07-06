@@ -27,4 +27,8 @@
 
 -> Self-organized criticality: intelligence-friendly regimes aren't designed, they're attained. is it possible to make a training heurestic/algorithm that basically does this? **Core intuition:** Many complex systems (sandpiles, forest fires, arguably cortical neural activity) naturally tune themselves toward a critical point — poised between order and disorder — without any external tuning, because that's the regime that maximizes their dynamic range and information-processing capacity
 
-->
+->Evolutionary and creative systems don't jump to distant, radically novel configurations — they expand into whatever is one combinatorial step away from what already exists, and each new element expands the set of _future_ adjacent possibilities, producing accelerating, branching growth rather than linear progress.
+
+-> There's a specific band of task difficulty — too hard to do alone, but doable with help — where learning is maximized; below it there's nothing to learn, above it the learner can't productively engage even with assistance. (doesnt curriculum learning just solve this?). Vygotsky's "zone of proximal development"
+
+-> 
