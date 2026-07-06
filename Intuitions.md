@@ -18,4 +18,4 @@
 -> Higher-level abstract concepts aren't qualitatively different kinds of representation from low-level sensory ones — they emerge from the same predictive machinery operating at slower timescales, compressing regularities that are stable over longer stretches of experience.
 
 
-->
+-> Conceptual blending as the substrate of everyday creativity
