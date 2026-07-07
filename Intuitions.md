@@ -31,4 +31,3 @@
 
 -> There's a specific band of task difficulty — too hard to do alone, but doable with help — where learning is maximized; below it there's nothing to learn, above it the learner can't productively engage even with assistance. (doesnt curriculum learning just solve this?). Vygotsky's "zone of proximal development"
 
--> 
