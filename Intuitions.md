@@ -13,5 +13,8 @@
 -> Loewenstein's "information gap theory" predicts (and finds) that curiosity intensifies right around the point where you know _just enough_ to realize what you're missing
 				-> if this hasnt been done before, find a way to quantify this
 
--> There's a specific band of task difficulty — too hard to do alone, but doable with help — where learning is maximized; below it there's nothing to learn, above it the learner can't productively engage even with assistance. (doesnt curriculum learning just solve this?). Vygotsky's "zone of proximal development"
+-> People get stuck on problems not from lack of raw ability but because an object or concept's most recent or most typical use "locks" its representation, blocking recognition of other equally valid uses — and this locking effect is strongest exactly when the fixating use was made most salient or recent.
+		-> are there scenarios in MBRL where our representations gets "stuck" in a minima. (i have no idea what that could mean in MBRL)?
 
+-> There's a specific band of task difficulty — too hard to do alone, but doable with help — where learning is maximized; below it there's nothing to learn, above it the learner can't productively engage even with assistance. (doesnt curriculum learning just solve this?). Vygotsky's "zone of proximal development"
+		-> same as information gap theory, if it hasnt been done before, is there a way to quanitfy it?
