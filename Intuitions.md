@@ -15,8 +15,6 @@
 
 -> Higher-level abstract concepts aren't qualitatively different kinds of representation from low-level sensory ones — they emerge from the same predictive machinery operating at slower timescales, compressing regularities that are stable over longer stretches of experience.
 
--> Conceptual blending as the substrate of everyday creativity
-
 -> you can hand someone every fact they need and they'll still fail until the _representation_ itself changes, which argues that "restructuring" is a distinct cognitive event
 
 -> Loewenstein's "information gap theory" predicts (and finds) that curiosity intensifies right around the point where you know _just enough_ to realize what you're missing
