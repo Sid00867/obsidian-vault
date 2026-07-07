@@ -1,8 +1,7 @@
 
--> An intelligent controller can only regulate a system if the controller has at least as much possible states/degrees of freedom as the environment. (Ashby's law of requisite) 
-		->  Latent State Optimality?
+-> If you want a genuinely open angle here: most world-model work treats the encoder as fixed-capacity and lets gradient descent decide what survives compression implicitly. Explicitly parameterizing "what gets forgotten" as an action with its own objective (rather than an emergent byproduct of a bottleneck) is less explored.
 
--> Teaching models to remember selectively with a environment memory mechanism??? (isnt that a latent state?)
+-> a teacher-student pair where the teacher isn't trying to be correct, it's trying to be _persuasive_, and the student's job is calibration — learning to discount confident-sounding but wrong arguments.
 
 -> That asymmetry suggests reasoning's evolutionary function was persuasion and justification within a group, with truth-tracking as a secondary, sometimes incidental, byproduct. **Why it might be true:** Mercier and Sperber's "argumentative theory of reasoning" explains confirmation bias (a notorious "flaw") as functional: if reasoning's job is to construct the strongest case for a position you already hold, seeking confirming evidence is exactly correct behavior, not a bug. its why groups reasoning together often produce _better_ answers
 		-> a sort of training paradigm where a teacher model "competes" with the student model in some vague "argumentative" sense?
