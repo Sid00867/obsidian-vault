@@ -1,4 +1,6 @@
 
+https://claude.ai/share/bb96fe9f-d356-4653-a0d8-b2e00f5b11ce
+
 -> If you want a genuinely open angle here: most world-model work treats the encoder as fixed-capacity and lets gradient descent decide what survives compression implicitly. Explicitly parameterizing "what gets forgotten" as an action with its own objective (rather than an emergent byproduct of a bottleneck) is less explored.
 			-> can we train a deep network that basically transforms a latent state (preserving its dimensions) under some optimization objective to "forget this or reinfrocing remeber that"? are there any such "transformations" to latent state we can do with new and novel training objectives? not just memory?
 
@@ -16,4 +18,5 @@ The main design risk to flag before you build either of these:
 for (1), the failure mode is that a utility-conditioned forget objective just collapses to "keep everything task-relevant," reinventing a standard information bottleneck with extra steps — you'd want to design the ablation so the forget action provably does something a bottleneck alone can't (e.g., context-dependent forgetting, same content kept in one episode and dropped in another). 
 
 For (2), the failure mode is the antagonist collapsing to trivial deception (loud, high-confidence noise) rather than _structured_ persuasive-but-wrong signal, which is the actually interesting case — you'd need to constrain the antagonist's signal to be "plausible" in some sense (e.g. locally consistent with true environment dynamics) or it just learns to shout.
+
 
