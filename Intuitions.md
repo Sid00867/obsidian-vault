@@ -21,8 +21,6 @@
 
 -> People get stuck on problems not from lack of raw ability but because an object or concept's most recent or most typical use "locks" its representation, blocking recognition of other equally valid uses — and this locking effect is strongest exactly when the fixating use was made most salient or recent.
 
-
-
 ->Evolutionary and creative systems don't jump to distant, radically novel configurations — they expand into whatever is one combinatorial step away from what already exists, and each new element expands the set of _future_ adjacent possibilities, producing accelerating, branching growth rather than linear progress.
 
 -> There's a specific band of task difficulty — too hard to do alone, but doable with help — where learning is maximized; below it there's nothing to learn, above it the learner can't productively engage even with assistance. (doesnt curriculum learning just solve this?). Vygotsky's "zone of proximal development"
