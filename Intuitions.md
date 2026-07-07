@@ -1,5 +1,5 @@
 
--> An intelligent controller can only regulate a system if the controller has at least as much possible states/degrees of freedom as the environment. (Ashby's law of requisite)
+-> An intelligent controller can only regulate a system if the controller has at least as much possible states/degrees of freedom as the environment. (Ashby's law of requisite) 
 
 -> Relevance Realization, what facts/states/behaviours are relevant?
 
@@ -8,8 +8,6 @@
 -> Remembering isn't replaying a stored recording; it's actively rebuilding a plausible account each time, using schemas (general knowledge structures) to fill gaps
 
 -> Teaching models to remeber selectively with a environment memory mechanism??? (isnt that a latent state)
-
--> The core function of episodic memory may not be accurate historical record-keeping at all — it may be to supply the raw material (fragments of past experience) that gets flexibly recombined to simulate _future_ scenarios.
 
 -> That asymmetry suggests reasoning's evolutionary function was persuasion and justification within a group, with truth-tracking as a secondary, sometimes incidental, byproduct. **Why it might be true:** Mercier and Sperber's "argumentative theory of reasoning" explains confirmation bias (a notorious "flaw") as functional: if reasoning's job is to construct the strongest case for a position you already hold, seeking confirming evidence is exactly correct behavior, not a bug. its why groups reasoning together often produce _better_ answers
 
