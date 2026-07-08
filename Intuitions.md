@@ -1,10 +1,8 @@
 
 https://claude.ai/share/bb96fe9f-d356-4653-a0d8-b2e00f5b11ce
 
--> If you want a genuinely open angle here: most world-model work treats the encoder as fixed-capacity and lets gradient descent decide what survives compression implicitly. Explicitly parameterizing "what gets forgotten" as an action with its own objective (rather than an emergent byproduct of a bottleneck) is less explored.
-			-> can we train a deep network that basically transforms a latent state (preserving its dimensions) under some optimization objective to "forget this or reinfrocing remeber that"? are there any such "transformations" to latent state we can do with new and novel training objectives? not just memory?
 
-	A concrete version worth building: take a recurrent world model, and instead of letting the encoder implicitly decide what survives compression via the ELBO/reconstruction loss alone, add a second head that outputs a low-rank projection (LEACE-style) applied to z_t, trained not to erase a _labeled_ concept but trained via a separate objective — e.g., an auxiliary predictor that estimates "will this subspace matter for reward k steps from now," with the projection strength as its own learned action rather than a knob you set. That turns memory management from an emergent side-effect of a bottleneck into a first-class controllable action, which is exactly your original point — and I don't see that combination (utility-conditioned, online, actionized) in what's out there.		
+Sperber's "argumentative theory of reasoning"
 
 -> a teacher-student pair where the teacher isn't trying to be correct, it's trying to be _persuasive_, and the student's job is calibration — learning to discount confident-sounding but wrong arguments.
 			->a UED or currciulum design paradigm that identifies/constructs environments where an agent gets the sort of "persuasive" pressure to attempt something??
@@ -12,11 +10,6 @@ https://claude.ai/share/bb96fe9f-d356-4653-a0d8-b2e00f5b11ce
 
 	So your idea would be: instead of (or in addition to) a teacher that maximizes regret, a teacher that maximizes something like _deceptive regret_ — the gap between how confident/persuasive a signal appears and how correct it actually is — and a student trained to minimize loss under that pressure, which forces it to develop calibration (discounting confidently-wrong signals) as an emergent competency rather than something bolted on via post-hoc calibration losses. Concretely this could be built on top of PAIRED's antagonist-protagonist scaffold, but with the antagonist's objective changed from "beat the protagonist" to "produce arguments/signals that maximize protagonist's confidence while minimizing protagonist's correctness" — a KL or confidence-based term instead of a reward-regret term. That's a genuinely different generator objective, not a relabeling of existing UED, and as far as I can find it hasn't been done as a curriculum-design paradigm — closest analogues (AI safety via debate, sycophancy-reduction training) treat this as a fixed dataset or fixed adversary, not as an _adaptive, curriculum-generating_ opponent the way UED treats task difficulty.
 
-
-The main design risk to flag before you build either of these:
-
-for (1), the failure mode is that a utility-conditioned forget objective just collapses to "keep everything task-relevant," reinventing a standard information bottleneck with extra steps — you'd want to design the ablation so the forget action provably does something a bottleneck alone can't (e.g., context-dependent forgetting, same content kept in one episode and dropped in another). 
-
-For (2), the failure mode is the antagonist collapsing to trivial deception (loud, high-confidence noise) rather than _structured_ persuasive-but-wrong signal, which is the actually interesting case — you'd need to constrain the antagonist's signal to be "plausible" in some sense (e.g. locally consistent with true environment dynamics) or it just learns to shout.
+the failure mode is the antagonist collapsing to trivial deception (loud, high-confidence noise) rather than _structured_ persuasive-but-wrong signal, which is the actually interesting case — you'd need to constrain the antagonist's signal to be "plausible" in some sense (e.g. locally consistent with true environment dynamics) or it just learns to shout.
 
 	The fix is to constrain the antagonist so noise-exploitation isn't available: force generated environments/arguments to stay plausible, e.g. bound how far the antagonist's output can deviate from real environment dynamics (a perturbation budget, or a learned realism discriminator that penalizes the antagonist for producing inputs an auxiliary model can tell are out-of-distribution).
