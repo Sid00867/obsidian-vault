@@ -13,3 +13,4 @@ Sperber's "argumentative theory of reasoning"
 the failure mode is the antagonist collapsing to trivial deception (loud, high-confidence noise) rather than _structured_ persuasive-but-wrong signal, which is the actually interesting case — you'd need to constrain the antagonist's signal to be "plausible" in some sense (e.g. locally consistent with true environment dynamics) or it just learns to shout.
 
 	The fix is to constrain the antagonist so noise-exploitation isn't available: force generated environments/arguments to stay plausible, e.g. bound how far the antagonist's output can deviate from real environment dynamics (a perturbation budget, or a learned realism discriminator that penalizes the antagonist for producing inputs an auxiliary model can tell are out-of-distribution).
+
