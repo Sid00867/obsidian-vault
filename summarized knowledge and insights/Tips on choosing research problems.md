@@ -53,7 +53,6 @@ Once you have nodes filled in, rank uncertainties by impact, neglectedness, and 
 - How to make LLMs more interpretable?
     
 - How to prevent catastrophic forgetting in continual learning?
-    
 
 #### Level 2 - Foundation assumptions
 
@@ -62,7 +61,6 @@ Once you have nodes filled in, rank uncertainties by impact, neglectedness, and 
 - Can we formulate a different objective function for language models other than auto-regressor next to completion? (This questions the dominant current pardigm of training models)
     
 - Should we optimize for reward maximization at all? (This questions the basic assumption of RL.)
-    
 
 #### Level 3 - Conceptual blind spots
 
@@ -71,7 +69,6 @@ Once you have nodes filled in, rank uncertainties by impact, neglectedness, and 
 - Non-computational forms of intelligence. (We lack vocabulary for it)
     
 - Collective intelligence. What does the word 'collective' here even mean?
-    
 
 > **As you can see, the higher the level you go, the more impactful your research is going to be,** but the less feasible that research could be because the uncertainty is going to just balloon up.
 

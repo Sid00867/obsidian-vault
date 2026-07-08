@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips on choosing research problems.md",
+                "file": "summarized knowledge and insights/Tips on choosing research problems.md",
                 "mode": "source",
                 "source": false
               },
@@ -231,10 +231,11 @@
   },
   "active": "a2bfed0fe5cfa907",
   "lastOpenFiles": [
-    "Terrible Crazy ideas.md",
+    "summarized knowledge and insights/Tips on choosing research problems.md",
     "Intuitions.md",
     "README.md",
     "Untitled.md",
+    "Terrible Crazy ideas.md",
     "Papers & Articles/Learning to Act without Actions.md",
     "Resources/World Models Survey.pdf",
     "Resources/DRL Survey.pdf",
@@ -255,7 +256,6 @@
     "Papers & Articles/A Path Towards Autonomous Machine Intelligence — Yann LeCun.md",
     "Reading mat new q 3 v2.md",
     "summarized knowledge and insights/RL and Domain Knowledge Recap.md",
-    "summarized knowledge and insights/Tips on choosing research problems.md",
     "summarized knowledge and insights",
     "Questions/New Question 3 v2.md",
     "Questions/Research Questions and Problems.md",
