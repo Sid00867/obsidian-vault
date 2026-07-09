@@ -39,14 +39,12 @@
             "id": "a2bfed0fe5cfa907",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Papers & Articles/Retrieval Augmented RL.md",
-                "mode": "source",
-                "source": false
+                "file": "Resources/DRL Survey.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Retrieval Augmented RL"
+              "icon": "lucide-file-text",
+              "title": "DRL Survey"
             }
           },
           {
@@ -231,9 +229,10 @@
   },
   "active": "a2bfed0fe5cfa907",
   "lastOpenFiles": [
+    "Resources/Deep+Learning+Ian+Goodfellow.pdf",
+    "Papers & Articles/Retrieval Augmented RL.md",
     "Papers & Articles/Attachments/Pasted image 20260709124108.png",
     "Intuitions.md",
-    "Papers & Articles/Retrieval Augmented RL.md",
     "summarized knowledge and insights/Tips on choosing research problems.md",
     "README.md",
     "Untitled.md",
@@ -241,7 +240,6 @@
     "Papers & Articles/Learning to Act without Actions.md",
     "Resources/World Models Survey.pdf",
     "Resources/DRL Survey.pdf",
-    "Resources/Deep+Learning+Ian+Goodfellow.pdf",
     "Papers & Articles/Value Iteration Networks (VIN).md",
     "Resources/HRL Survey.pdf",
     "Resources/DRL Survey.pdf.crdownload",
@@ -276,7 +274,6 @@
     "Attachments/Pasted image 20260627000234.png",
     "Attachments/Pasted image 20260627000132.png",
     "Papers & Articles/Attachments/Pasted image 20260605130858.png",
-    "Papers & Articles/Attachments/Pasted image 20260605130648.png",
-    "Papers & Articles/Attachments/Pasted image 20260605125538.png"
+    "Papers & Articles/Attachments/Pasted image 20260605130648.png"
   ]
 }
