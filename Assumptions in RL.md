@@ -17,5 +17,7 @@ perhaps some useful prior or learning paradigm.
 
 foundational models have a useful prior for a lot of tasks.
 
+during early exploration, instead of sampling actions randomly every timestep, we sample a sequence size of N of the same action. when the state stops changing meaningfully or when a sequence has ended, we sample a different action sequence vector. we stop this method when out agent has gained some competency.
+
 
 
