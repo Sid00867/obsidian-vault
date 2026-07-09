@@ -39,12 +39,14 @@
             "id": "a2bfed0fe5cfa907",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Resources/DRL Survey.pdf"
+                "file": "Assumptions in RL.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "DRL Survey"
+              "icon": "lucide-file",
+              "title": "Assumptions in RL"
             }
           },
           {
@@ -229,6 +231,9 @@
   },
   "active": "a2bfed0fe5cfa907",
   "lastOpenFiles": [
+    "Terrible Crazy ideas.md",
+    "Assumptions in RL.md",
+    "Resources/DRL Survey.pdf",
     "Resources/Deep+Learning+Ian+Goodfellow.pdf",
     "Papers & Articles/Retrieval Augmented RL.md",
     "Papers & Articles/Attachments/Pasted image 20260709124108.png",
@@ -236,10 +241,8 @@
     "summarized knowledge and insights/Tips on choosing research problems.md",
     "README.md",
     "Untitled.md",
-    "Terrible Crazy ideas.md",
     "Papers & Articles/Learning to Act without Actions.md",
     "Resources/World Models Survey.pdf",
-    "Resources/DRL Survey.pdf",
     "Papers & Articles/Value Iteration Networks (VIN).md",
     "Resources/HRL Survey.pdf",
     "Resources/DRL Survey.pdf.crdownload",
