@@ -8,3 +8,14 @@
 -> that the policy and the model are separate, the model does pass its hidden state to the policy network, but there is no feedback from the policy to the model, only happens indirectly via the environment.
 -> metareasoning is nonexistent. a few vague sense of predictors akin to it exist, like confidence/entropy/trust value etc. but none actually explictly plan over planning/imagining/reacting (but tbf this topic is not really definable in the context of MBRL)
 -> we trust the model will remember and forget details for planning in its latent state automatically, but we have no explicit/empirical proof for this, even if we do, they dont seem to be working for long horizon tasks.
+
+
+# Pain points
+
+it feels like there should be a way to accelerate the "helplessness" phase of RL training.
+perhaps some useful prior or learning paradigm.
+
+foundational models have a useful prior for a lot of tasks.
+
+
+
