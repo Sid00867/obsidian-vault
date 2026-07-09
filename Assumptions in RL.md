@@ -19,4 +19,4 @@ foundational models have a useful prior for a lot of tasks.
 
 during early exploration, instead of sampling actions randomly every timestep, we sample a sequence size of N of the same action. when the state stops changing meaningfully or when a sequence has ended, we sample a different action sequence vector. we stop this method when out agent has gained some competency.
 
-here is another idea -> a seperate policy, for exploration. its goal : reaching novel states. it could be even be task/env agnostic by first training on an env to predict not actions but some vague sense of "action structure" based upon environment feedback, and use that to generalize other explorative phases in other environemnts
+[[here is another idea - a seperate policy, for exploration. its goal - reaching novel states. it could be even be task/env agnostic by first training on an env to predict not actions but some vague sense of  an action structure based upon environment feedback, and use that to generalize other explorative phases in other environemnts]]
